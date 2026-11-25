@@ -9,9 +9,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-11-17T20:00:10+00:00\n"
+"POT-Creation-Date: 2026-11-25T18:50:05+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"X-Generator: WP-CLI 2.11.0\n"
+"X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: buddypress\n"
 
 #. Plugin Name of the plugin
@@ -61,6 +61,7 @@ msgstr ""
 
 #. translators: %s Site Name
 #: bp-activity/actions/feeds.php:32
+#, php-format
 msgid "%s | Site-Wide Activity"
 msgstr ""
 
@@ -70,52 +71,62 @@ msgstr ""
 
 #. translators: 1: Site Name. 2: User Display Name.
 #: bp-activity/actions/feeds.php:65
+#, php-format
 msgctxt "Personal activity feed title"
 msgid "%1$s | %2$s | Activity"
 msgstr ""
 
 #. translators: %s: User Display Name
 #: bp-activity/actions/feeds.php:69
+#, php-format
 msgid "Activity feed for %s."
 msgstr ""
 
 #. translators: 1: Site Name 2: User Display Name
 #: bp-activity/actions/feeds.php:100
+#, php-format
 msgid "%1$s | %2$s | Friends Activity"
 msgstr ""
 
 #. translators: %s: User Display Name
 #: bp-activity/actions/feeds.php:104
+#, php-format
 msgid "Activity feed for %s's friends."
 msgstr ""
 
 #. translators: 1: Site Name 2: User Display Name
 #: bp-activity/actions/feeds.php:138
+#, php-format
 msgid "%1$s | %2$s | Group Activity"
 msgstr ""
 
 #. translators: %s: User Display Name
 #: bp-activity/actions/feeds.php:142
+#, php-format
 msgid "Public group activity feed of which %s is a member."
 msgstr ""
 
 #. translators: 1: Site Name 2: User Display Name
 #: bp-activity/actions/feeds.php:181
+#, php-format
 msgid "%1$s | %2$s | Mentions"
 msgstr ""
 
 #. translators: %s: User Display Name
 #: bp-activity/actions/feeds.php:185
+#, php-format
 msgid "Activity feed mentioning %s."
 msgstr ""
 
 #. translators: 1: Site Name 2: User Display Name
 #: bp-activity/actions/feeds.php:221
+#, php-format
 msgid "%1$s | %2$s | Favorites"
 msgstr ""
 
 #. translators: %s: User Display Name
 #: bp-activity/actions/feeds.php:225
+#, php-format
 msgid "Activity feed of %s's favorites."
 msgstr ""
 
@@ -323,11 +334,13 @@ msgstr ""
 #. translators: %s: the name of the activity type
 #: bp-activity/bp-activity-admin.php:668
 #: bp-activity/classes/class-bp-activity-list-table.php:641
+#, php-format
 msgid "Unregistered action - %s"
 msgstr ""
 
 #. translators: 1: activity type. 2: activity author. 3: activity date and time.
 #: bp-activity/bp-activity-admin.php:673
+#, php-format
 msgid "\"%1$s\" activity submitted by %2$s on %3$s"
 msgstr ""
 
@@ -371,6 +384,7 @@ msgstr ""
 
 #. translators: %s: the activity ID
 #: bp-activity/bp-activity-admin.php:746
+#, php-format
 msgid "Editing Activity (ID #%s)"
 msgstr ""
 
@@ -430,6 +444,7 @@ msgstr ""
 
 #. translators: %s: the date the activity was submitted on
 #: bp-activity/bp-activity-admin.php:862
+#, php-format
 msgid "Submitted on: %s"
 msgstr ""
 
@@ -461,6 +476,7 @@ msgstr ""
 
 #. translators: %s: the name of the activity type
 #: bp-activity/bp-activity-admin.php:1013
+#, php-format
 msgid "This activity item has a type (%s) that is not registered using bp_activity_set_action(), so no label is available."
 msgstr ""
 
@@ -483,6 +499,7 @@ msgstr ""
 
 #. translators: %s: the number of permanently deleted activities
 #: bp-activity/bp-activity-admin.php:1096
+#, php-format
 msgid "%s activity item has been permanently deleted."
 msgid_plural "%s activity items have been permanently deleted."
 msgstr[0] ""
@@ -490,6 +507,7 @@ msgstr[1] ""
 
 #. translators: %s: the ID of the activity which errored during an update
 #: bp-activity/bp-activity-admin.php:1102
+#, php-format
 msgid "An error occurred when trying to update activity ID #%s."
 msgstr ""
 
@@ -499,11 +517,13 @@ msgstr ""
 
 #. Translators: %s: the activity ID
 #: bp-activity/bp-activity-admin.php:1111
+#, php-format
 msgid "#%s"
 msgstr ""
 
 #. translators: %s: the number of activities successfully marked as spam
 #: bp-activity/bp-activity-admin.php:1121
+#, php-format
 msgid "%s activity item has been successfully spammed."
 msgid_plural "%s activity items have been successfully spammed."
 msgstr[0] ""
@@ -511,6 +531,7 @@ msgstr[1] ""
 
 #. translators: %s: the number of activities successfully marked as ham
 #: bp-activity/bp-activity-admin.php:1126
+#, php-format
 msgid "%s activity item has been successfully unspammed."
 msgid_plural "%s activity items have been successfully unspammed."
 msgstr[0] ""
@@ -522,6 +543,7 @@ msgstr ""
 
 #. translators: %s: the activity ID
 #: bp-activity/bp-activity-admin.php:1151
+#, php-format
 msgid "Activity related to ID #%s"
 msgstr ""
 
@@ -535,6 +557,7 @@ msgstr ""
 #: bp-groups/bp-groups-admin.php:825
 #: bp-members/classes/class-bp-members-admin.php:2352
 #: bp-members/classes/class-bp-members-admin.php:3250
+#, php-format
 msgid "Search results for &#8220;%s&#8221;"
 msgstr ""
 
@@ -572,11 +595,13 @@ msgstr ""
 
 #. translators: 1: oEmbed author. 2: oEmbed provider. eg. By BuddyPress on YouTube.
 #: bp-activity/bp-activity-embeds.php:293
+#, php-format
 msgid "By %1$s on %2$s"
 msgstr ""
 
 #. translators: %s: oEmbed provider.
 #: bp-activity/bp-activity-embeds.php:297
+#, php-format
 msgid "View on %s"
 msgstr ""
 
@@ -653,11 +678,13 @@ msgstr ""
 
 #. translators: %s: the activity author user link
 #: bp-activity/bp-activity-functions.php:1698
+#, php-format
 msgid "%s posted an update"
 msgstr ""
 
 #. translators: %s: the activity author user link
 #: bp-activity/bp-activity-functions.php:1725
+#, php-format
 msgid "%s posted a new activity comment"
 msgstr ""
 
@@ -669,24 +696,28 @@ msgstr ""
 
 #. translators: 1: the activity author user link. 2: the post link. 3: the blog link.
 #: bp-activity/bp-activity-functions.php:1779
+#, php-format
 msgctxt "Activity Custom Post Type post action"
 msgid "%1$s wrote a new %2$s, on the site %3$s"
 msgstr ""
 
 #. translators: 1: the activity author user link. 2: the post link.
 #: bp-activity/bp-activity-functions.php:1786
+#, php-format
 msgctxt "Activity Custom Post Type post action"
 msgid "%1$s wrote a new %2$s"
 msgstr ""
 
 #. translators: 1: the activity author user link. 2: the post link. 3: the blog link.
 #: bp-activity/bp-activity-functions.php:1833
+#, php-format
 msgctxt "Activity Custom Post Type comment action"
 msgid "%1$s commented on the %2$s, on the site %3$s"
 msgstr ""
 
 #. translators: 1: the activity author user link. 2: the post link.
 #: bp-activity/bp-activity-functions.php:1840
+#, php-format
 msgctxt "Activity Custom Post Type post comment action"
 msgid "%1$s commented on the %2$s"
 msgstr ""
@@ -741,16 +772,19 @@ msgstr ""
 
 #. translators: %s: the current user display name
 #: bp-activity/bp-activity-notifications.php:40
+#, php-format
 msgid "@%s Mentions"
 msgstr ""
 
 #. translators: 1: the number of activity mentions
 #: bp-activity/bp-activity-notifications.php:45
+#, php-format
 msgid "You have %1$d new mentions"
 msgstr ""
 
 #. translators: 1: the user display name
 #: bp-activity/bp-activity-notifications.php:49
+#, php-format
 msgid "%1$s mentioned you"
 msgstr ""
 
@@ -760,11 +794,13 @@ msgstr ""
 
 #. translators: 1: the number of activity replies
 #: bp-activity/bp-activity-notifications.php:62
+#, php-format
 msgid "You have %1$d new replies"
 msgstr ""
 
 #. translators: 1: the user display name
 #: bp-activity/bp-activity-notifications.php:68
+#, php-format
 msgid "%1$s commented on one of your updates"
 msgstr ""
 
@@ -774,11 +810,13 @@ msgstr ""
 
 #. translators: 1: the number of activity comment replies
 #: bp-activity/bp-activity-notifications.php:81
+#, php-format
 msgid "You have %1$d new comment replies"
 msgstr ""
 
 #. translators: 1: the user display name
 #: bp-activity/bp-activity-notifications.php:87
+#, php-format
 msgid "%1$s replied to one of your activity comments"
 msgstr ""
 
@@ -821,6 +859,7 @@ msgstr ""
 
 #. translators: %s: the displayed user username
 #: bp-activity/bp-activity-notifications.php:414
+#, php-format
 msgid "A member mentions you in an update using \"@%s\""
 msgstr ""
 
@@ -866,6 +905,7 @@ msgstr ""
 
 #. translators: 1: the from number item. 2: the to number item. 3: the total number of items.
 #: bp-activity/bp-activity-template.php:484
+#, php-format
 msgid "Viewing %1$s - %2$s of %3$s item"
 msgid_plural "Viewing %1$s - %2$s of %3$s items"
 msgstr[0] ""
@@ -905,6 +945,7 @@ msgstr ""
 #: bp-notifications/classes/class-bp-notifications-component.php:303
 #: bp-friends/blocks/dynamic-widget/index.js:8
 #: bp-members/blocks/dynamic-widget/index.js:7
+#, php-format,js-format
 msgid "Profile picture of %s"
 msgstr ""
 
@@ -915,11 +956,13 @@ msgstr ""
 #. translators: %s: the Group name
 #: bp-activity/bp-activity-template.php:1187
 #: bp-groups/classes/class-bp-groups-list-table.php:644
+#, php-format
 msgid "Group logo of %s"
 msgstr ""
 
 #. translators: %s: the blog name
 #: bp-activity/bp-activity-template.php:1199
+#, php-format
 msgid "Profile picture of the author of the site %s"
 msgstr ""
 
@@ -932,6 +975,7 @@ msgstr ""
 #: bp-activity/bp-activity-template.php:2092
 #: bp-activity/bp-activity-template.php:2535
 #: bp-groups/classes/class-bp-groups-group.php:211
+#, php-format
 msgid "%1$s no longer accepts arguments. See the inline documentation at %2$s for more details."
 msgstr ""
 
@@ -1018,6 +1062,7 @@ msgstr ""
 #: bp-messages/classes/class-bp-messages-box-template.php:141
 #: bp-messages/classes/class-bp-messages-thread.php:700
 #: bp-xprofile/classes/class-bp-xprofile-data-template.php:134
+#, php-format
 msgid "Arguments passed to %1$s should be in an associative array. See the inline documentation at %2$s for more details."
 msgstr ""
 
@@ -1069,6 +1114,7 @@ msgstr ""
 
 #. translators: %s: Unread mention count for the current user
 #: bp-activity/classes/class-bp-activity-component.php:346
+#, php-format
 msgctxt "Toolbar Mention logged in user"
 msgid "Mentions %s"
 msgstr ""
@@ -1133,11 +1179,13 @@ msgstr ""
 #. translators: %s is the placeholder for the count html tag `<span class="count"/>`
 #: bp-activity/classes/class-bp-activity-list-table.php:357
 #: bp-groups/classes/class-bp-groups-list-table.php:376
+#, php-format
 msgid "All %s"
 msgstr ""
 
 #. translators: %s is the placeholder for the count html tag `<span class="count"/>`
 #: bp-activity/classes/class-bp-activity-list-table.php:369
+#, php-format
 msgid "Spam %s"
 msgstr ""
 
@@ -1186,6 +1234,7 @@ msgstr ""
 
 #. translators: accessibility text
 #: bp-activity/classes/class-bp-activity-list-table.php:590
+#, php-format
 msgid "Select activity item %1$d"
 msgstr ""
 
@@ -1195,12 +1244,14 @@ msgstr ""
 
 #. translators: %s: activity date and time
 #: bp-activity/classes/class-bp-activity-list-table.php:719
+#, php-format
 msgid "Submitted on %s"
 msgstr ""
 
 #. translators: 1: activity date, 2: activity time
 #: bp-activity/classes/class-bp-activity-list-table.php:725
 #: bp-core/bp-core-template.php:340
+#, php-format
 msgid "%1$s at %2$s"
 msgstr ""
 
@@ -1210,6 +1261,7 @@ msgstr ""
 
 #. translators: accessibility text
 #: bp-activity/classes/class-bp-activity-oembed-extension.php:324
+#, php-format
 msgid "%s <span class=\"screen-reader-text\">Comment</span>"
 msgid_plural "%s <span class=\"screen-reader-text\">Comments</span>"
 msgstr[0] ""
@@ -1235,11 +1287,13 @@ msgstr ""
 
 #. translators: %s: the name of the user
 #: bp-activity/classes/class-bp-akismet.php:97
+#, php-format
 msgid "Flagged as spam by %s"
 msgstr ""
 
 #. translators: %s: the name of the user
 #: bp-activity/classes/class-bp-akismet.php:100
+#, php-format
 msgid "Un-spammed by %s"
 msgstr ""
 
@@ -1249,11 +1303,13 @@ msgstr ""
 
 #. translators: %s: the current user username
 #: bp-activity/classes/class-bp-akismet.php:477
+#, php-format
 msgid "%s reported this activity as spam"
 msgstr ""
 
 #. translators: %s: the current user username
 #: bp-activity/classes/class-bp-akismet.php:503
+#, php-format
 msgid "%s reported this activity as not spam"
 msgstr ""
 
@@ -1267,6 +1323,7 @@ msgstr ""
 
 #. translators: %s the akismet result
 #: bp-activity/classes/class-bp-akismet.php:546
+#, php-format
 msgid "Akismet was unable to check this item (response: %s), will automatically retry again later."
 msgstr ""
 
@@ -1276,6 +1333,7 @@ msgstr ""
 
 #. translators: 1: the human diff time. 2: the akismet history data.
 #: bp-activity/classes/class-bp-akismet.php:675
+#, php-format
 msgctxt "x hours ago - akismet cleared this item"
 msgid "%1$s &mdash; %2$s"
 msgstr ""
@@ -1452,6 +1510,7 @@ msgstr ""
 #: bp-blogs/classes/class-bp-rest-blogs-endpoint.php:760
 #: bp-groups/classes/class-bp-rest-groups-endpoint.php:1387
 #: bp-members/classes/class-bp-rest-members-endpoint.php:1177
+#, php-format
 msgid "Avatar URL with full image size (%1$d x %2$d pixels)."
 msgstr ""
 
@@ -1460,6 +1519,7 @@ msgstr ""
 #: bp-blogs/classes/class-bp-rest-blogs-endpoint.php:768
 #: bp-groups/classes/class-bp-rest-groups-endpoint.php:1395
 #: bp-members/classes/class-bp-rest-members-endpoint.php:1185
+#, php-format
 msgid "Avatar URL with thumb image size (%1$d x %2$d pixels)."
 msgstr ""
 
@@ -1562,29 +1622,34 @@ msgstr ""
 
 #. translators: 1: the activity user link. 2: the blog link.
 #: bp-blogs/bp-blogs-activity.php:176
+#, php-format
 msgid "%1$s created the site %2$s"
 msgstr ""
 
 #. translators: 1: the activity user link. 2: the blog link.
 #: bp-blogs/bp-blogs-activity.php:223
+#, php-format
 msgctxt "Multisite `new_blog_post` activity action, since 11.0 only accepts two arguments"
 msgid "%1$s wrote a new post on the site %2$s"
 msgstr ""
 
 #. translators: 1: the activity user link.
 #: bp-blogs/bp-blogs-activity.php:230
+#, php-format
 msgctxt "`new_blog_post` activity action, since 11.0 only accepts one argument"
 msgid "%s wrote a new post"
 msgstr ""
 
 #. translators: 1: the activity user link. 2: the post link. 3: the blog link.
 #: bp-blogs/bp-blogs-activity.php:333
+#, php-format
 msgctxt "`new_blog_comment` activity action"
 msgid "%1$s commented on the post, %2$s, on the site %3$s"
 msgstr ""
 
 #. translators: 1: the activity user link. 2: the post link.
 #: bp-blogs/bp-blogs-activity.php:341
+#, php-format
 msgctxt "`new_blog_comment` activity action"
 msgid "%1$s commented on the post, %2$s"
 msgstr ""
@@ -1604,6 +1669,7 @@ msgstr ""
 
 #. translators: 1: the site from number. 2: the site to number. 3: the total number of sites.
 #: bp-blogs/bp-blogs-template.php:277
+#, php-format
 msgid "Viewing %1$s - %2$s of %3$s site"
 msgid_plural "Viewing %1$s - %2$s of %3$s sites"
 msgstr[0] ""
@@ -1615,11 +1681,13 @@ msgstr ""
 
 #. translators: %s is the blog name
 #: bp-blogs/bp-blogs-template.php:382
+#, php-format
 msgid "Site icon for %s"
 msgstr ""
 
 #. translators: %s: last activity timestamp (e.g. "Active 1 hour ago")
 #: bp-blogs/bp-blogs-template.php:704
+#, php-format
 msgctxt "last time the site was active"
 msgid "Active %s"
 msgstr ""
@@ -1631,6 +1699,7 @@ msgstr ""
 
 #. translators: %s: the title of the latest post
 #: bp-blogs/bp-blogs-template.php:782
+#, php-format
 msgid "Latest Post: %s"
 msgstr ""
 
@@ -1668,16 +1737,19 @@ msgstr ""
 
 #. translators: %s is the site domain and path.
 #: bp-blogs/bp-blogs-template.php:1262
+#, php-format
 msgid "domain.%s"
 msgstr ""
 
 #. translators: %s is the site domain and path.
 #: bp-blogs/bp-blogs-template.php:1269
+#, php-format
 msgid "%sblogname"
 msgstr ""
 
 #. translators: %s is the site url.
 #: bp-blogs/bp-blogs-template.php:1278
+#, php-format
 msgid "Your address will be %s"
 msgstr ""
 
@@ -1701,7 +1773,7 @@ msgstr ""
 #: bp-blogs/bp-blogs-template.php:1526
 #: bp-blogs/classes/class-bp-blogs-component.php:334
 #: bp-blogs/classes/class-bp-blogs-theme-compat.php:175
-#: bp-core/bp-core-template.php:3127
+#: bp-core/bp-core-template.php:3140
 #: bp-templates/bp-nouveau/includes/blogs/functions.php:57
 msgid "Create a Site"
 msgstr ""
@@ -1722,6 +1794,7 @@ msgstr ""
 
 #. translators: %s: the number of blogs
 #: bp-blogs/bp-blogs-template.php:1746
+#, php-format
 msgid "%s site"
 msgid_plural "%s sites"
 msgstr[0] ""
@@ -1766,6 +1839,7 @@ msgstr ""
 
 #. translators: %s: Site count for the displayed user
 #: bp-blogs/classes/class-bp-blogs-component.php:267
+#, php-format
 msgid "Sites %s"
 msgstr ""
 
@@ -1961,29 +2035,29 @@ msgid "Save Settings"
 msgstr ""
 
 #: bp-core/admin/bp-core-admin-components.php:64
-#: bp-core/bp-core-functions.php:2804
+#: bp-core/bp-core-functions.php:2807
 msgid "Extended Profiles"
 msgstr ""
 
 #: bp-core/admin/bp-core-admin-components.php:65
-#: bp-core/bp-core-functions.php:2805
+#: bp-core/bp-core-functions.php:2808
 msgid "Customize your community with fully editable profile fields that allow your users to describe themselves."
 msgstr ""
 
 #: bp-core/admin/bp-core-admin-components.php:68
-#: bp-core/bp-core-functions.php:2808
+#: bp-core/bp-core-functions.php:2811
 msgid "Account Settings"
 msgstr ""
 
 #: bp-core/admin/bp-core-admin-components.php:69
-#: bp-core/bp-core-functions.php:2809
+#: bp-core/bp-core-functions.php:2812
 msgid "Allow your users to modify their account and notification settings directly from within their profiles."
 msgstr ""
 
 #. translators: accessibility text
 #: bp-core/admin/bp-core-admin-components.php:72
 #: bp-core/admin/bp-core-admin-functions.php:562
-#: bp-core/bp-core-functions.php:2824
+#: bp-core/bp-core-functions.php:2827
 #: bp-core/classes/class-bp-admin.php:1676
 #: bp-notifications/bp-notifications-functions.php:1028
 #: bp-notifications/classes/class-bp-notifications-component.php:296
@@ -1992,12 +2066,13 @@ msgid "Notifications"
 msgstr ""
 
 #: bp-core/admin/bp-core-admin-components.php:73
-#: bp-core/bp-core-functions.php:2825
+#: bp-core/bp-core-functions.php:2828
 msgid "Notify members of relevant activity with a toolbar bubble and/or via email, and allow them to customize their notification settings."
 msgstr ""
 
 #. translators: %s: the number of installed components
 #: bp-core/admin/bp-core-admin-components.php:149
+#, php-format
 msgctxt "plugins"
 msgid "All <span class=\"count\">(%s)</span>"
 msgid_plural "All <span class=\"count\">(%s)</span>"
@@ -2006,6 +2081,7 @@ msgstr[1] ""
 
 #. translators: %s: the number of active components
 #: bp-core/admin/bp-core-admin-components.php:157
+#, php-format
 msgid "Active <span class=\"count\">(%s)</span>"
 msgid_plural "Active <span class=\"count\">(%s)</span>"
 msgstr[0] ""
@@ -2013,6 +2089,7 @@ msgstr[1] ""
 
 #. translators: %s: the number of inactive components
 #: bp-core/admin/bp-core-admin-components.php:165
+#, php-format
 msgid "Inactive <span class=\"count\">(%s)</span>"
 msgid_plural "Inactive <span class=\"count\">(%s)</span>"
 msgstr[0] ""
@@ -2020,6 +2097,7 @@ msgstr[1] ""
 
 #. translators: %s: the number of must-Use components
 #: bp-core/admin/bp-core-admin-components.php:173
+#, php-format
 msgid "Must-Use <span class=\"count\">(%s)</span>"
 msgid_plural "Must-Use <span class=\"count\">(%s)</span>"
 msgstr[0] ""
@@ -2027,6 +2105,7 @@ msgstr[1] ""
 
 #. translators: %s: the number of retired components
 #: bp-core/admin/bp-core-admin-components.php:181
+#, php-format
 msgid "Retired <span class=\"count\">(%s)</span>"
 msgid_plural "Retired <span class=\"count\">(%s)</span>"
 msgstr[0] ""
@@ -2058,6 +2137,7 @@ msgstr ""
 
 #. translators: accessibility text
 #: bp-core/admin/bp-core-admin-components.php:268
+#, php-format
 msgid "Select %s"
 msgstr ""
 
@@ -2075,6 +2155,7 @@ msgstr ""
 
 #. Translators: 1: is the url to the BP Components settings screen. 2: is the url to the xProfile administration screen.
 #: bp-core/admin/bp-core-admin-functions.php:118
+#, php-format
 msgid "Components, Pages, Settings, and Forums, have been moved to <a href=\"%1$s\">Settings &gt; BuddyPress</a>. Profile Fields has been moved into the <a href=\"%2$s\">Users</a> menu."
 msgstr ""
 
@@ -2096,16 +2177,19 @@ msgstr ""
 
 #. Translators: %s is the comma separated list of components needing a directory page.
 #: bp-core/admin/bp-core-admin-functions.php:324
+#, php-format
 msgid "The following active BuddyPress Components do not have associated BuddyPress Pages: %s."
 msgstr ""
 
 #. Translators: %s is the comma separated list of components needing a directory page.
 #: bp-core/admin/bp-core-admin-functions.php:335
+#, php-format
 msgid "A BuddyPress page has been added for the following active BuddyPress Components which did not have associated BuddyPress Pages yet: %s. You may need to refresh your permalink settings."
 msgstr ""
 
 #. Translators: %s is the list of directory pages associated to more than one component.
 #: bp-core/admin/bp-core-admin-functions.php:361
+#, php-format
 msgid "Each BuddyPress Component needs its own BuddyPress page. The following BuddyPress Pages have more than one component associated with them: %s."
 msgstr ""
 
@@ -2240,6 +2324,7 @@ msgstr ""
 
 #. Translators: %s contains braces within a code tag.
 #: bp-core/admin/bp-core-admin-functions.php:953
+#, php-format
 msgid "Phrases wrapped in braces %s are email tokens. Tokens are variable strings that will get replaced with dynamic content when the email gets sent."
 msgstr ""
 
@@ -2276,6 +2361,7 @@ msgstr ""
 
 #. Translators: %s is the url to the BuddyPress tools administration screen.
 #: bp-core/admin/bp-core-admin-functions.php:1357
+#, php-format
 msgid "Are these emails not written in your site's language? Go to <a href=\"%s\">BuddyPress Tools and try the \"reinstall emails\"</a> tool."
 msgstr ""
 
@@ -2382,6 +2468,7 @@ msgstr ""
 
 #. translators: %s: number of deleted optouts
 #: bp-core/admin/bp-core-admin-optouts.php:199
+#, php-format
 msgctxt "nonmembers opt-out deleted"
 msgid "%s opt-out successfully deleted!"
 msgid_plural "%s opt-outs successfully deleted!"
@@ -2390,6 +2477,7 @@ msgstr[1] ""
 
 #. translators: %s: number of optouts that failed to be deleted
 #: bp-core/admin/bp-core-admin-optouts.php:214
+#, php-format
 msgctxt "nonmembers opt-out not deleted"
 msgid "%s opt-out was not deleted."
 msgid_plural "%s opt-outs were not deleted."
@@ -2410,6 +2498,7 @@ msgstr ""
 
 #. translators: %s: the searched email.
 #: bp-core/admin/bp-core-admin-optouts.php:353
+#, php-format
 msgid "Opt-out with an email address matching &#8220;%s&#8221;"
 msgid_plural "Opt-outs with an email address matching &#8220;%s&#8221;"
 msgstr[0] ""
@@ -2435,6 +2524,7 @@ msgstr[1] ""
 
 #. translators: %s: modification date
 #: bp-core/admin/bp-core-admin-optouts.php:458
+#, php-format
 msgid "Date modified: %s"
 msgstr ""
 
@@ -2491,17 +2581,20 @@ msgstr ""
 
 #. translators: %s is the member primary screen name
 #: bp-core/admin/bp-core-admin-rewrites.php:282
+#, php-format
 msgctxt "member primary screen name URL admin label"
 msgid "\"%s\" slug"
 msgstr ""
 
 #. translators: %s is the BP Component name the secondary views belong to.
 #: bp-core/admin/bp-core-admin-rewrites.php:302
+#, php-format
 msgid "Single Member %s secondary screens slugs"
 msgstr ""
 
 #. translators: %s is the member secondary view name
 #: bp-core/admin/bp-core-admin-rewrites.php:320
+#, php-format
 msgctxt "member secondary screen name URL admin label"
 msgid "\"%s\" slug"
 msgstr ""
@@ -2520,6 +2613,7 @@ msgstr ""
 
 #. translators: %s is group view name
 #: bp-core/admin/bp-core-admin-rewrites.php:389
+#, php-format
 msgctxt "group view name URL admin label"
 msgid "\"%s\" slug"
 msgstr ""
@@ -2704,6 +2798,7 @@ msgstr ""
 
 #. translators: %s: the result of the action performed by the repair tool
 #: bp-core/admin/bp-core-admin-tools.php:188
+#, php-format
 msgid "Removing all custom slugs and resetting default ones&hellip; %s"
 msgstr ""
 
@@ -2722,6 +2817,7 @@ msgstr ""
 
 #. translators: %s: the result of the action performed by the repair tool
 #: bp-core/admin/bp-core-admin-tools.php:278
+#, php-format
 msgid "Counting the number of friends for each user&hellip; %s"
 msgstr ""
 
@@ -2738,26 +2834,31 @@ msgstr ""
 
 #. translators: %s: the result of the action performed by the repair tool
 #: bp-core/admin/bp-core-admin-tools.php:339
+#, php-format
 msgid "Counting the number of groups for each user&hellip; %s"
 msgstr ""
 
 #. translators: %s: the result of the action performed by the repair tool
 #: bp-core/admin/bp-core-admin-tools.php:382
+#, php-format
 msgid "Repopulating Blogs records&hellip; %s"
 msgstr ""
 
 #. translators: %s: the result of the action performed by the repair tool
 #: bp-core/admin/bp-core-admin-tools.php:414
+#, php-format
 msgid "Repairing site icons/blog avatars synchronization&hellip; %s"
 msgstr ""
 
 #. translators: %s: the result of the action performed by the repair tool
 #: bp-core/admin/bp-core-admin-tools.php:470
+#, php-format
 msgid "Counting the number of active members on the site&hellip; %s"
 msgstr ""
 
 #. translators: %s: the result of the action performed by the repair tool
 #: bp-core/admin/bp-core-admin-tools.php:493
+#, php-format
 msgid "Creating the Invitations database table if it does not exist&hellip; %s"
 msgstr ""
 
@@ -2771,6 +2872,7 @@ msgstr ""
 
 #. translators: %s: the result of the action performed by the repair tool
 #: bp-core/admin/bp-core-admin-tools.php:513
+#, php-format
 msgid "Migrating group invitations&hellip; %s"
 msgstr ""
 
@@ -2803,6 +2905,7 @@ msgstr ""
 
 #. translators: %s: the link to the BuddyPress repair tools
 #: bp-core/admin/bp-core-admin-tools.php:643
+#, php-format
 msgctxt "buddypress tools intro"
 msgid "Use the %s to repair these relationships."
 msgstr ""
@@ -2817,6 +2920,7 @@ msgstr ""
 
 #. translators: %s: the link to the BuddyPress Invitations management tool screen
 #: bp-core/admin/bp-core-admin-tools.php:656
+#, php-format
 msgctxt "buddypress invitations tool intro"
 msgid "Visit %s to manage your site&rsquo;s invitations."
 msgstr ""
@@ -2838,6 +2942,7 @@ msgstr ""
 
 #. translators: %s: the link to the BuddyPress Nonmember Opt-outs management tool screen
 #: bp-core/admin/bp-core-admin-tools.php:669
+#, php-format
 msgctxt "buddypress opt-outs intro"
 msgid "Visit %s to manage your site&rsquo;s opt-out requests."
 msgstr ""
@@ -2992,6 +3097,7 @@ msgstr ""
 
 #. translators: %s: File name.
 #: bp-core/bp-core-attachments.php:677
+#, php-format
 msgid "%s exceeds the maximum upload size for this site."
 msgstr ""
 
@@ -3038,11 +3144,13 @@ msgstr ""
 
 #. translators: 1: Opening link tag, 2: Closing link tag.
 #: bp-core/bp-core-attachments.php:690
+#, php-format
 msgid "Please try uploading this file with the %1$sbrowser uploader%2$s."
 msgstr ""
 
 #. translators: %s: File name.
 #: bp-core/bp-core-attachments.php:693
+#, php-format
 msgid "%s exceeds the maximum upload size for the multi-file uploader when used in your browser."
 msgstr ""
 
@@ -3076,6 +3184,7 @@ msgstr ""
 
 #. translators: %s: File name.
 #: bp-core/bp-core-attachments.php:704
+#, php-format
 msgid "&#8220;%s&#8221; has failed to upload."
 msgstr ""
 
@@ -3131,6 +3240,7 @@ msgstr ""
 
 #. translators: 1: the advised width size in pixels. 2: the advised height size in pixels.
 #: bp-core/bp-core-attachments.php:931
+#, php-format
 msgid "For better results, make sure to upload an image that is larger than %1$spx wide, and %2$spx tall."
 msgstr ""
 
@@ -3138,6 +3248,7 @@ msgstr ""
 #: bp-core/bp-core-attachments.php:1497
 #: bp-core/bp-core-avatars.php:993
 #: bp-core/classes/trait-attachments.php:51
+#, php-format
 msgid "Upload Failed! Error was: %s"
 msgstr ""
 
@@ -3158,16 +3269,19 @@ msgstr ""
 #. translators: %s: the upload error message
 #: bp-core/bp-core-avatars.php:1023
 #: bp-core/classes/trait-attachments.php:294
+#, php-format
 msgid "Upload failed! Error was: %s"
 msgstr ""
 
 #. translators: %s: the value of the aspect ratio.
 #: bp-core/bp-core-avatars.php:1033
+#, php-format
 msgid "The aspect ratio of the image you selected is too great compared to the profile photo one. For best results, upload a picture having an aspect ratio closer to %s."
 msgstr ""
 
 #. translators: 1: the advised width size in pixels. 2: the advised height size in pixels.
 #: bp-core/bp-core-avatars.php:1037
+#, php-format
 msgid "You have selected an image that is smaller than recommended. For best results, upload a picture larger than %1$d x %2$d pixels."
 msgstr ""
 
@@ -3190,7 +3304,7 @@ msgid "Lost your password?"
 msgstr ""
 
 #: bp-core/bp-core-blocks.php:366
-#: bp-core/bp-core-functions.php:2943
+#: bp-core/bp-core-functions.php:2946
 #: bp-core/deprecated/1.5.php:323
 #: bp-members/bp-members-template.php:1526
 msgid "Log Out"
@@ -3236,12 +3350,14 @@ msgstr ""
 
 #. Translators: %s is the relative time (eg: in a few seconds).
 #: bp-core/bp-core-cssjs.php:538
+#, php-format
 msgid "in %s"
 msgstr ""
 
 #. translators: %s: the human time diff.
 #: bp-core/bp-core-cssjs.php:540
-#: bp-core/bp-core-functions.php:1488
+#: bp-core/bp-core-functions.php:1491
+#, php-format
 msgid "%s ago"
 msgstr ""
 
@@ -3255,6 +3371,7 @@ msgstr ""
 
 #. Translators: %d is the amount of minutes.
 #: bp-core/bp-core-cssjs.php:544
+#, php-format
 msgid "%d minutes"
 msgstr ""
 
@@ -3264,6 +3381,7 @@ msgstr ""
 
 #. Translators: %d is the amount of hours.
 #: bp-core/bp-core-cssjs.php:547
+#, php-format
 msgid "%d hours"
 msgstr ""
 
@@ -3273,6 +3391,7 @@ msgstr ""
 
 #. Translators: %d is the amount of days.
 #: bp-core/bp-core-cssjs.php:550
+#, php-format
 msgid "%d days"
 msgstr ""
 
@@ -3282,6 +3401,7 @@ msgstr ""
 
 #. Translators: %d is the amount of months.
 #: bp-core/bp-core-cssjs.php:553
+#, php-format
 msgid "%d months"
 msgstr ""
 
@@ -3291,6 +3411,7 @@ msgstr ""
 
 #. Translators: %d is the amount of years.
 #: bp-core/bp-core-cssjs.php:556
+#, php-format
 msgid "%d years"
 msgstr ""
 
@@ -3367,6 +3488,7 @@ msgstr ""
 
 #. translators: %s: the page number.
 #: bp-core/bp-core-filters.php:728
+#, php-format
 msgid "Page %s"
 msgstr ""
 
@@ -3416,372 +3538,381 @@ msgid "Register"
 msgstr ""
 
 #. translators: %s: the number of years.
-#: bp-core/bp-core-functions.php:1349
+#: bp-core/bp-core-functions.php:1352
+#, php-format
 msgid "%s year"
 msgid_plural "%s years"
 msgstr[0] ""
 msgstr[1] ""
 
 #. translators: %s: the number of months.
-#: bp-core/bp-core-functions.php:1353
-#: bp-core/bp-core-functions.php:1393
+#: bp-core/bp-core-functions.php:1356
+#: bp-core/bp-core-functions.php:1396
+#, php-format
 msgid "%s month"
 msgid_plural "%s months"
 msgstr[0] ""
 msgstr[1] ""
 
 #. translators: %s: the number of weeks.
-#: bp-core/bp-core-functions.php:1357
-#: bp-core/bp-core-functions.php:1397
+#: bp-core/bp-core-functions.php:1360
+#: bp-core/bp-core-functions.php:1400
+#, php-format
 msgid "%s week"
 msgid_plural "%s weeks"
 msgstr[0] ""
 msgstr[1] ""
 
 #. translators: %s: the number of days.
-#: bp-core/bp-core-functions.php:1361
-#: bp-core/bp-core-functions.php:1401
+#: bp-core/bp-core-functions.php:1364
+#: bp-core/bp-core-functions.php:1404
+#, php-format
 msgid "%s day"
 msgid_plural "%s days"
 msgstr[0] ""
 msgstr[1] ""
 
 #. translators: %s: the number of hours.
-#: bp-core/bp-core-functions.php:1365
-#: bp-core/bp-core-functions.php:1405
+#: bp-core/bp-core-functions.php:1368
+#: bp-core/bp-core-functions.php:1408
+#, php-format
 msgid "%s hour"
 msgid_plural "%s hours"
 msgstr[0] ""
 msgstr[1] ""
 
 #. translators: %s: the number of minutes.
-#: bp-core/bp-core-functions.php:1369
-#: bp-core/bp-core-functions.php:1409
+#: bp-core/bp-core-functions.php:1372
+#: bp-core/bp-core-functions.php:1412
+#, php-format
 msgid "%s minute"
 msgid_plural "%s minutes"
 msgstr[0] ""
 msgstr[1] ""
 
 #. translators: %s: the number of seconds.
-#: bp-core/bp-core-functions.php:1373
-#: bp-core/bp-core-functions.php:1413
+#: bp-core/bp-core-functions.php:1376
+#: bp-core/bp-core-functions.php:1416
+#, php-format
 msgid "%s second"
 msgid_plural "%s seconds"
 msgstr[0] ""
 msgstr[1] ""
 
-#: bp-core/bp-core-functions.php:1498
+#: bp-core/bp-core-functions.php:1501
 msgid "right now"
 msgstr ""
 
-#: bp-core/bp-core-functions.php:1501
+#: bp-core/bp-core-functions.php:1504
 msgctxt "Separator in time since"
 msgid ","
 msgstr ""
 
-#: bp-core/bp-core-functions.php:1512
+#: bp-core/bp-core-functions.php:1515
 msgid "sometime"
 msgstr ""
 
 #. translators: %d: the age .
-#: bp-core/bp-core-functions.php:1554
+#: bp-core/bp-core-functions.php:1557
+#, php-format
 msgid "%s old"
 msgstr ""
 
-#: bp-core/bp-core-functions.php:1801
+#: bp-core/bp-core-functions.php:1804
 msgid "Not recently active"
 msgstr ""
 
-#: bp-core/bp-core-functions.php:2790
+#: bp-core/bp-core-functions.php:2793
 #: bp-core/classes/class-bp-admin.php:485
 msgid "BuddyPress Core"
 msgstr ""
 
-#: bp-core/bp-core-functions.php:2791
+#: bp-core/bp-core-functions.php:2794
 msgid "It&#8216;s what makes <del>time travel</del> BuddyPress possible!"
 msgstr ""
 
-#: bp-core/bp-core-functions.php:2794
+#: bp-core/bp-core-functions.php:2797
 msgid "Community Members"
 msgstr ""
 
-#: bp-core/bp-core-functions.php:2795
+#: bp-core/bp-core-functions.php:2798
 msgid "Everything in a BuddyPress community revolves around its members."
 msgstr ""
 
-#: bp-core/bp-core-functions.php:2812
+#: bp-core/bp-core-functions.php:2815
 msgid "Friend Connections"
 msgstr ""
 
-#: bp-core/bp-core-functions.php:2813
+#: bp-core/bp-core-functions.php:2816
 msgid "Let your users make connections so they can track the activity of others and focus on the people they care about the most."
 msgstr ""
 
-#: bp-core/bp-core-functions.php:2816
+#: bp-core/bp-core-functions.php:2819
 msgid "Private Messaging"
 msgstr ""
 
-#: bp-core/bp-core-functions.php:2817
+#: bp-core/bp-core-functions.php:2820
 msgid "Allow your users to talk to each other directly and in private. Not just limited to one-on-one discussions, messages can be sent between any number of members."
 msgstr ""
 
-#: bp-core/bp-core-functions.php:2820
+#: bp-core/bp-core-functions.php:2823
 #: bp-core/classes/class-bp-admin.php:582
 msgid "Activity Streams"
 msgstr ""
 
-#: bp-core/bp-core-functions.php:2821
+#: bp-core/bp-core-functions.php:2824
 msgid "Global, personal, and group activity streams with threaded commenting, direct posting, favoriting, and @mentions, all with full RSS feed and email notification support."
 msgstr ""
 
-#: bp-core/bp-core-functions.php:2828
+#: bp-core/bp-core-functions.php:2831
 #: bp-core/classes/class-bp-admin.php:556
 msgid "User Groups"
 msgstr ""
 
-#: bp-core/bp-core-functions.php:2829
+#: bp-core/bp-core-functions.php:2832
 msgid "Groups allow your users to organize themselves into specific public, private or hidden sections with separate activity streams and member listings."
 msgstr ""
 
-#: bp-core/bp-core-functions.php:2832
+#: bp-core/bp-core-functions.php:2835
 msgid "Site Tracking"
 msgstr ""
 
-#: bp-core/bp-core-functions.php:2833
+#: bp-core/bp-core-functions.php:2836
 msgid "Record activity for new posts and comments from your site."
 msgstr ""
 
-#: bp-core/bp-core-functions.php:2839
+#: bp-core/bp-core-functions.php:2842
 msgid "Record activity for new sites, posts, and comments across your network."
 msgstr ""
 
-#: bp-core/bp-core-functions.php:3009
+#: bp-core/bp-core-functions.php:3012
 #: bp-members/bp-members-adminbar.php:56
 #: bp-templates/bp-nouveau/buddypress/members/activate.php:30
 msgid "Log In"
 msgstr ""
 
-#: bp-core/bp-core-functions.php:3311
+#: bp-core/bp-core-functions.php:3314
 msgctxt "email post type label"
 msgid "Add New"
 msgstr ""
 
-#: bp-core/bp-core-functions.php:3312
+#: bp-core/bp-core-functions.php:3315
 msgctxt "email post type label"
 msgid "Add a New Email"
 msgstr ""
 
-#: bp-core/bp-core-functions.php:3313
+#: bp-core/bp-core-functions.php:3316
 msgctxt "email post type label"
 msgid "All Emails"
 msgstr ""
 
-#: bp-core/bp-core-functions.php:3314
+#: bp-core/bp-core-functions.php:3317
 msgctxt "email post type label"
 msgid "Edit Email"
 msgstr ""
 
-#: bp-core/bp-core-functions.php:3315
+#: bp-core/bp-core-functions.php:3318
 msgctxt "email post type label"
 msgid "Filter email list"
 msgstr ""
 
-#: bp-core/bp-core-functions.php:3316
-msgctxt "email post type label"
-msgid "Email list"
-msgstr ""
-
-#: bp-core/bp-core-functions.php:3317
-msgctxt "email post type label"
-msgid "Email list navigation"
-msgstr ""
-
-#: bp-core/bp-core-functions.php:3318
-msgctxt "email post type name"
-msgid "Emails"
-msgstr ""
-
 #: bp-core/bp-core-functions.php:3319
 msgctxt "email post type label"
-msgid "BuddyPress Emails"
+msgid "Email list"
 msgstr ""
 
 #: bp-core/bp-core-functions.php:3320
 msgctxt "email post type label"
-msgid "New Email"
+msgid "Email list navigation"
 msgstr ""
 
 #: bp-core/bp-core-functions.php:3321
-msgctxt "email post type label"
-msgid "No emails found"
+msgctxt "email post type name"
+msgid "Emails"
 msgstr ""
 
 #: bp-core/bp-core-functions.php:3322
 msgctxt "email post type label"
-msgid "No emails found in Trash"
+msgid "BuddyPress Emails"
 msgstr ""
 
 #: bp-core/bp-core-functions.php:3323
 msgctxt "email post type label"
-msgid "Search Emails"
+msgid "New Email"
 msgstr ""
 
 #: bp-core/bp-core-functions.php:3324
-msgctxt "email post type singular name"
-msgid "Email"
+msgctxt "email post type label"
+msgid "No emails found"
 msgstr ""
 
 #: bp-core/bp-core-functions.php:3325
 msgctxt "email post type label"
-msgid "Uploaded to this email"
+msgid "No emails found in Trash"
 msgstr ""
 
 #: bp-core/bp-core-functions.php:3326
 msgctxt "email post type label"
+msgid "Search Emails"
+msgstr ""
+
+#: bp-core/bp-core-functions.php:3327
+msgctxt "email post type singular name"
+msgid "Email"
+msgstr ""
+
+#: bp-core/bp-core-functions.php:3328
+msgctxt "email post type label"
+msgid "Uploaded to this email"
+msgstr ""
+
+#: bp-core/bp-core-functions.php:3329
+msgctxt "email post type label"
 msgid "View Email"
 msgstr ""
 
-#: bp-core/bp-core-functions.php:3386
+#: bp-core/bp-core-functions.php:3389
 msgctxt "BP Type name label"
 msgid "Plural Name"
 msgstr ""
 
-#: bp-core/bp-core-functions.php:3387
+#: bp-core/bp-core-functions.php:3390
 msgctxt "BP Type singular name label"
 msgid "Singular name"
 msgstr ""
 
-#: bp-core/bp-core-functions.php:3388
+#: bp-core/bp-core-functions.php:3391
 msgctxt "BP Type has directory checkbox label"
 msgid "Has Directory View"
 msgstr ""
 
-#: bp-core/bp-core-functions.php:3389
+#: bp-core/bp-core-functions.php:3392
 msgctxt "BP Type slug label"
 msgid "Custom type directory slug"
 msgstr ""
 
-#: bp-core/bp-core-functions.php:3437
+#: bp-core/bp-core-functions.php:3440
 msgctxt "email type taxonomy label"
 msgid "New Email Situation"
 msgstr ""
 
-#: bp-core/bp-core-functions.php:3438
+#: bp-core/bp-core-functions.php:3441
 msgctxt "email type taxonomy label"
 msgid "All Email Situations"
 msgstr ""
 
-#: bp-core/bp-core-functions.php:3439
+#: bp-core/bp-core-functions.php:3442
 msgctxt "email type taxonomy label"
 msgid "Edit Email Situations"
 msgstr ""
 
-#: bp-core/bp-core-functions.php:3440
+#: bp-core/bp-core-functions.php:3443
 msgctxt "email type taxonomy label"
 msgid "Email list"
 msgstr ""
 
-#: bp-core/bp-core-functions.php:3441
+#: bp-core/bp-core-functions.php:3444
 msgctxt "email type taxonomy label"
 msgid "Email list navigation"
 msgstr ""
 
-#: bp-core/bp-core-functions.php:3442
+#: bp-core/bp-core-functions.php:3445
 msgctxt "email type taxonomy label"
 msgid "Situations"
 msgstr ""
 
-#: bp-core/bp-core-functions.php:3443
+#: bp-core/bp-core-functions.php:3446
 msgctxt "email type taxonomy name"
 msgid "Situation"
 msgstr ""
 
-#: bp-core/bp-core-functions.php:3444
+#: bp-core/bp-core-functions.php:3447
 msgctxt "email type taxonomy label"
 msgid "New email situation name"
 msgstr ""
 
-#: bp-core/bp-core-functions.php:3445
+#: bp-core/bp-core-functions.php:3448
 msgctxt "email type taxonomy label"
 msgid "No email situations found."
 msgstr ""
 
-#: bp-core/bp-core-functions.php:3446
+#: bp-core/bp-core-functions.php:3449
 msgctxt "email type taxonomy label"
 msgid "No email situations"
 msgstr ""
 
-#: bp-core/bp-core-functions.php:3447
+#: bp-core/bp-core-functions.php:3450
 msgctxt "email type taxonomy label"
 msgid "Popular Email Situation"
 msgstr ""
 
-#: bp-core/bp-core-functions.php:3448
+#: bp-core/bp-core-functions.php:3451
 msgctxt "email type taxonomy label"
 msgid "Search Emails"
 msgstr ""
 
-#: bp-core/bp-core-functions.php:3449
+#: bp-core/bp-core-functions.php:3452
 msgctxt "email type taxonomy singular name"
 msgid "Email"
 msgstr ""
 
-#: bp-core/bp-core-functions.php:3450
+#: bp-core/bp-core-functions.php:3453
 msgctxt "email type taxonomy label"
 msgid "Update Email Situation"
 msgstr ""
 
-#: bp-core/bp-core-functions.php:3451
+#: bp-core/bp-core-functions.php:3454
 msgctxt "email type taxonomy label"
 msgid "View Email Situation"
 msgstr ""
 
-#: bp-core/bp-core-functions.php:3475
+#: bp-core/bp-core-functions.php:3478
 msgctxt "email type taxonomy description"
 msgid "BuddyPress email types"
 msgstr ""
 
-#: bp-core/bp-core-functions.php:3496
+#: bp-core/bp-core-functions.php:3499
 msgid "The name of this type in singular form. "
 msgstr ""
 
-#: bp-core/bp-core-functions.php:3502
+#: bp-core/bp-core-functions.php:3505
 msgid "The name of this type in plural form."
 msgstr ""
 
-#: bp-core/bp-core-functions.php:3508
+#: bp-core/bp-core-functions.php:3511
 msgid "Make a list matching this type available on the directory."
 msgstr ""
 
-#: bp-core/bp-core-functions.php:3514
+#: bp-core/bp-core-functions.php:3517
 msgid "Type slug"
 msgstr ""
 
-#: bp-core/bp-core-functions.php:3515
+#: bp-core/bp-core-functions.php:3518
 #: bp-groups/bp-groups-functions.php:2932
 #: bp-members/bp-members-functions.php:2816
 msgid "Enter if you want the type slug to be different from its ID."
 msgstr ""
 
 #. translators: 1. Copyright year, 2. Site name
-#: bp-core/bp-core-functions.php:3957
+#: bp-core/bp-core-functions.php:3960
+#, php-format
 msgctxt "copyright text for email footers"
 msgid "&copy; %1$s %2$s"
 msgstr ""
 
 #. translators: link to Privacy Policy
-#: bp-core/bp-core-functions.php:3968
+#: bp-core/bp-core-functions.php:3971
 #: bp-templates/bp-nouveau/includes/template-tags.php:2637
 msgid "Privacy Policy"
 msgstr ""
 
 #. translators: do not remove {} brackets or translate its contents.
-#: bp-core/bp-core-functions.php:4094
+#: bp-core/bp-core-functions.php:4097
 msgid "[{{{site.name}}}] Welcome!"
 msgstr ""
 
 #. translators: do not remove {} brackets or translate its contents.
-#: bp-core/bp-core-functions.php:4096
+#: bp-core/bp-core-functions.php:4099
 msgid ""
 "Welcome to {{site.name}}!\n"
 "\n"
@@ -3791,7 +3922,7 @@ msgid ""
 msgstr ""
 
 #. translators: do not remove {} brackets or translate its contents.
-#: bp-core/bp-core-functions.php:4098
+#: bp-core/bp-core-functions.php:4101
 msgid ""
 "Welcome to {{site.name}}!\n"
 "\n"
@@ -3801,12 +3932,12 @@ msgid ""
 msgstr ""
 
 #. translators: do not remove {} brackets or translate its contents.
-#: bp-core/bp-core-functions.php:4102
+#: bp-core/bp-core-functions.php:4105
 msgid "[{{{site.name}}}] {{poster.name}} replied to one of your updates"
 msgstr ""
 
 #. translators: do not remove {} brackets or translate its contents.
-#: bp-core/bp-core-functions.php:4104
+#: bp-core/bp-core-functions.php:4107
 msgid ""
 "{{poster.name}} replied to one of your updates:\n"
 "\n"
@@ -3816,7 +3947,7 @@ msgid ""
 msgstr ""
 
 #. translators: do not remove {} brackets or translate its contents.
-#: bp-core/bp-core-functions.php:4106
+#: bp-core/bp-core-functions.php:4109
 msgid ""
 "{{poster.name}} replied to one of your updates:\n"
 "\n"
@@ -3826,12 +3957,12 @@ msgid ""
 msgstr ""
 
 #. translators: do not remove {} brackets or translate its contents.
-#: bp-core/bp-core-functions.php:4110
+#: bp-core/bp-core-functions.php:4113
 msgid "[{{{site.name}}}] {{poster.name}} replied to one of your comments"
 msgstr ""
 
 #. translators: do not remove {} brackets or translate its contents.
-#: bp-core/bp-core-functions.php:4112
+#: bp-core/bp-core-functions.php:4115
 msgid ""
 "{{poster.name}} replied to one of your comments:\n"
 "\n"
@@ -3841,7 +3972,7 @@ msgid ""
 msgstr ""
 
 #. translators: do not remove {} brackets or translate its contents.
-#: bp-core/bp-core-functions.php:4114
+#: bp-core/bp-core-functions.php:4117
 msgid ""
 "{{poster.name}} replied to one of your comments:\n"
 "\n"
@@ -3851,12 +3982,12 @@ msgid ""
 msgstr ""
 
 #. translators: do not remove {} brackets or translate its contents.
-#: bp-core/bp-core-functions.php:4118
+#: bp-core/bp-core-functions.php:4121
 msgid "[{{{site.name}}}] {{poster.name}} mentioned you in a status update"
 msgstr ""
 
 #. translators: do not remove {} brackets or translate its contents.
-#: bp-core/bp-core-functions.php:4120
+#: bp-core/bp-core-functions.php:4123
 msgid ""
 "{{poster.name}} mentioned you in a status update:\n"
 "\n"
@@ -3866,7 +3997,7 @@ msgid ""
 msgstr ""
 
 #. translators: do not remove {} brackets or translate its contents.
-#: bp-core/bp-core-functions.php:4122
+#: bp-core/bp-core-functions.php:4125
 msgid ""
 "{{poster.name}} mentioned you in a status update:\n"
 "\n"
@@ -3876,12 +4007,12 @@ msgid ""
 msgstr ""
 
 #. translators: do not remove {} brackets or translate its contents.
-#: bp-core/bp-core-functions.php:4126
+#: bp-core/bp-core-functions.php:4129
 msgid "[{{{site.name}}}] {{poster.name}} mentioned you in an update"
 msgstr ""
 
 #. translators: do not remove {} brackets or translate its contents.
-#: bp-core/bp-core-functions.php:4128
+#: bp-core/bp-core-functions.php:4131
 msgid ""
 "{{poster.name}} mentioned you in the group \"{{group.name}}\":\n"
 "\n"
@@ -3891,7 +4022,7 @@ msgid ""
 msgstr ""
 
 #. translators: do not remove {} brackets or translate its contents.
-#: bp-core/bp-core-functions.php:4130
+#: bp-core/bp-core-functions.php:4133
 msgid ""
 "{{poster.name}} mentioned you in the group \"{{group.name}}\":\n"
 "\n"
@@ -3901,12 +4032,12 @@ msgid ""
 msgstr ""
 
 #. translators: do not remove {} brackets or translate its contents.
-#: bp-core/bp-core-functions.php:4134
+#: bp-core/bp-core-functions.php:4137
 msgid "[{{{site.name}}}] Activate your account"
 msgstr ""
 
 #. translators: do not remove {} brackets or translate its contents.
-#: bp-core/bp-core-functions.php:4136
+#: bp-core/bp-core-functions.php:4139
 msgid ""
 "Thanks for registering!\n"
 "\n"
@@ -3917,7 +4048,7 @@ msgid ""
 msgstr ""
 
 #. translators: do not remove {} brackets or translate its contents.
-#: bp-core/bp-core-functions.php:4138
+#: bp-core/bp-core-functions.php:4141
 msgid ""
 "Thanks for registering!\n"
 "\n"
@@ -3927,12 +4058,12 @@ msgid ""
 msgstr ""
 
 #. translators: do not remove {} brackets or translate its contents.
-#: bp-core/bp-core-functions.php:4142
+#: bp-core/bp-core-functions.php:4145
 msgid "[{{{site.name}}}] Activate {{{user-site.url}}}"
 msgstr ""
 
 #. translators: do not remove {} brackets or translate its contents.
-#: bp-core/bp-core-functions.php:4144
+#: bp-core/bp-core-functions.php:4147
 msgid ""
 "Thanks for registering!\n"
 "\n"
@@ -3942,7 +4073,7 @@ msgid ""
 msgstr ""
 
 #. translators: do not remove {} brackets or translate its contents.
-#: bp-core/bp-core-functions.php:4146
+#: bp-core/bp-core-functions.php:4149
 msgid ""
 "Thanks for registering!\n"
 "\n"
@@ -3952,12 +4083,12 @@ msgid ""
 msgstr ""
 
 #. translators: do not remove {} brackets or translate its contents.
-#: bp-core/bp-core-functions.php:4153
+#: bp-core/bp-core-functions.php:4156
 msgid "[{{{site.name}}}] New friendship request from {{initiator.name}}"
 msgstr ""
 
 #. translators: do not remove {} brackets or translate its contents.
-#: bp-core/bp-core-functions.php:4155
+#: bp-core/bp-core-functions.php:4158
 msgid ""
 "<a href=\"{{{initiator.url}}}\">{{initiator.name}}</a> wants to add you as a friend.\n"
 "\n"
@@ -3965,7 +4096,7 @@ msgid ""
 msgstr ""
 
 #. translators: do not remove {} brackets or translate its contents.
-#: bp-core/bp-core-functions.php:4157
+#: bp-core/bp-core-functions.php:4160
 msgid ""
 "{{initiator.name}} wants to add you as a friend.\n"
 "\n"
@@ -3975,17 +4106,17 @@ msgid ""
 msgstr ""
 
 #. translators: do not remove {} brackets or translate its contents.
-#: bp-core/bp-core-functions.php:4161
+#: bp-core/bp-core-functions.php:4164
 msgid "[{{{site.name}}}] {{friend.name}} accepted your friendship request"
 msgstr ""
 
 #. translators: do not remove {} brackets or translate its contents.
-#: bp-core/bp-core-functions.php:4163
+#: bp-core/bp-core-functions.php:4166
 msgid "<a href=\"{{{friendship.url}}}\">{{friend.name}}</a> accepted your friend request."
 msgstr ""
 
 #. translators: do not remove {} brackets or translate its contents.
-#: bp-core/bp-core-functions.php:4165
+#: bp-core/bp-core-functions.php:4168
 msgid ""
 "{{friend.name}} accepted your friend request.\n"
 "\n"
@@ -3993,19 +4124,19 @@ msgid ""
 msgstr ""
 
 #. translators: do not remove {} brackets or translate its contents.
-#: bp-core/bp-core-functions.php:4169
+#: bp-core/bp-core-functions.php:4172
 msgid "[{{{site.name}}}] Group details updated"
 msgstr ""
 
 #. translators: do not remove {} brackets or translate its contents.
-#: bp-core/bp-core-functions.php:4171
+#: bp-core/bp-core-functions.php:4174
 msgid ""
 "Group details for the group &quot;<a href=\"{{{group.url}}}\">{{group.name}}</a>&quot; were updated:\n"
 "<blockquote>{{changed_text}}</blockquote>"
 msgstr ""
 
 #. translators: do not remove {} brackets or translate its contents.
-#: bp-core/bp-core-functions.php:4173
+#: bp-core/bp-core-functions.php:4176
 msgid ""
 "Group details for the group \"{{group.name}}\" were updated:\n"
 "\n"
@@ -4015,12 +4146,12 @@ msgid ""
 msgstr ""
 
 #. translators: do not remove {} brackets or translate its contents.
-#: bp-core/bp-core-functions.php:4177
+#: bp-core/bp-core-functions.php:4180
 msgid "[{{{site.name}}}] You have an invitation to the group: \"{{group.name}}\""
 msgstr ""
 
 #. translators: do not remove {} brackets or translate its contents.
-#: bp-core/bp-core-functions.php:4179
+#: bp-core/bp-core-functions.php:4182
 msgid ""
 "<a href=\"{{{inviter.url}}}\">{{inviter.name}}</a> has invited you to join the group: &quot;{{group.name}}&quot;.\n"
 "\n"
@@ -4030,7 +4161,7 @@ msgid ""
 msgstr ""
 
 #. translators: do not remove {} brackets or translate its contents.
-#: bp-core/bp-core-functions.php:4181
+#: bp-core/bp-core-functions.php:4184
 msgid ""
 "{{inviter.name}} has invited you to join the group: \"{{group.name}}\".\n"
 "\n"
@@ -4043,17 +4174,17 @@ msgid ""
 msgstr ""
 
 #. translators: do not remove {} brackets or translate its contents.
-#: bp-core/bp-core-functions.php:4185
+#: bp-core/bp-core-functions.php:4188
 msgid "[{{{site.name}}}] You have been promoted in the group: \"{{group.name}}\""
 msgstr ""
 
 #. translators: do not remove {} brackets or translate its contents.
-#: bp-core/bp-core-functions.php:4187
+#: bp-core/bp-core-functions.php:4190
 msgid "You have been promoted to <b>{{promoted_to}}</b> in the group &quot;<a href=\"{{{group.url}}}\">{{group.name}}</a>&quot;."
 msgstr ""
 
 #. translators: do not remove {} brackets or translate its contents.
-#: bp-core/bp-core-functions.php:4189
+#: bp-core/bp-core-functions.php:4192
 msgid ""
 "You have been promoted to {{promoted_to}} in the group: \"{{group.name}}\".\n"
 "\n"
@@ -4061,12 +4192,12 @@ msgid ""
 msgstr ""
 
 #. translators: do not remove {} brackets or translate its contents.
-#: bp-core/bp-core-functions.php:4193
+#: bp-core/bp-core-functions.php:4196
 msgid "[{{{site.name}}}] Membership request for group: {{group.name}}"
 msgstr ""
 
 #. translators: do not remove {} brackets or translate its contents.
-#: bp-core/bp-core-functions.php:4195
+#: bp-core/bp-core-functions.php:4198
 msgid ""
 "<a href=\"{{{profile.url}}}\">{{requesting-user.name}}</a> wants to join the group &quot;{{group.name}}&quot;.\n"
 " {{request.message}}\n"
@@ -4076,7 +4207,7 @@ msgid ""
 msgstr ""
 
 #. translators: do not remove {} brackets or translate its contents.
-#: bp-core/bp-core-functions.php:4197
+#: bp-core/bp-core-functions.php:4200
 msgid ""
 "{{requesting-user.name}} wants to join the group \"{{group.name}}\". As you are the administrator of this group, you must either accept or reject the membership request.\n"
 "\n"
@@ -4086,12 +4217,12 @@ msgid ""
 msgstr ""
 
 #. translators: do not remove {} brackets or translate its contents.
-#: bp-core/bp-core-functions.php:4201
+#: bp-core/bp-core-functions.php:4204
 msgid "[{{{site.name}}}] New message from {{sender.name}}"
 msgstr ""
 
 #. translators: do not remove {} brackets or translate its contents.
-#: bp-core/bp-core-functions.php:4203
+#: bp-core/bp-core-functions.php:4206
 msgid ""
 "{{sender.name}} sent you a new message: &quot;{{usersubject}}&quot;\n"
 "\n"
@@ -4101,7 +4232,7 @@ msgid ""
 msgstr ""
 
 #. translators: do not remove {} brackets or translate its contents.
-#: bp-core/bp-core-functions.php:4205
+#: bp-core/bp-core-functions.php:4208
 msgid ""
 "{{sender.name}} sent you a new message: \"{{usersubject}}\"\n"
 "\n"
@@ -4111,12 +4242,12 @@ msgid ""
 msgstr ""
 
 #. translators: do not remove {} brackets or translate its contents.
-#: bp-core/bp-core-functions.php:4209
+#: bp-core/bp-core-functions.php:4212
 msgid "[{{{site.name}}}] Verify your new email address"
 msgstr ""
 
 #. translators: do not remove {} brackets or translate its contents.
-#: bp-core/bp-core-functions.php:4211
+#: bp-core/bp-core-functions.php:4214
 msgid ""
 "You recently changed the email address associated with your account on {{site.name}} to {{user.email}}. If this is correct, <a href=\"{{{verify.url}}}\">go here to confirm the change</a>.\n"
 "\n"
@@ -4124,7 +4255,7 @@ msgid ""
 msgstr ""
 
 #. translators: do not remove {} brackets or translate its contents.
-#: bp-core/bp-core-functions.php:4213
+#: bp-core/bp-core-functions.php:4216
 msgid ""
 "You recently changed the email address associated with your account on {{site.name}} to {{user.email}}. If this is correct, go to the following link to confirm the change: {{{verify.url}}}\n"
 "\n"
@@ -4132,18 +4263,18 @@ msgid ""
 msgstr ""
 
 #. translators: do not remove {} brackets or translate its contents.
-#: bp-core/bp-core-functions.php:4217
-#: bp-core/bp-core-functions.php:4233
+#: bp-core/bp-core-functions.php:4220
+#: bp-core/bp-core-functions.php:4236
 msgid "[{{{site.name}}}] Membership request for group \"{{group.name}}\" accepted"
 msgstr ""
 
 #. translators: do not remove {} brackets or translate its contents.
-#: bp-core/bp-core-functions.php:4219
+#: bp-core/bp-core-functions.php:4222
 msgid "Your membership request for the group &quot;<a href=\"{{{group.url}}}\">{{group.name}}</a>&quot; has been accepted."
 msgstr ""
 
 #. translators: do not remove {} brackets or translate its contents.
-#: bp-core/bp-core-functions.php:4221
+#: bp-core/bp-core-functions.php:4224
 msgid ""
 "Your membership request for the group \"{{group.name}}\" has been accepted.\n"
 "\n"
@@ -4151,18 +4282,18 @@ msgid ""
 msgstr ""
 
 #. translators: do not remove {} brackets or translate its contents.
-#: bp-core/bp-core-functions.php:4225
-#: bp-core/bp-core-functions.php:4241
+#: bp-core/bp-core-functions.php:4228
+#: bp-core/bp-core-functions.php:4244
 msgid "[{{{site.name}}}] Membership request for group \"{{group.name}}\" rejected"
 msgstr ""
 
 #. translators: do not remove {} brackets or translate its contents.
-#: bp-core/bp-core-functions.php:4227
+#: bp-core/bp-core-functions.php:4230
 msgid "Your membership request for the group &quot;<a href=\"{{{group.url}}}\">{{group.name}}</a>&quot; has been rejected."
 msgstr ""
 
 #. translators: do not remove {} brackets or translate its contents.
-#: bp-core/bp-core-functions.php:4229
+#: bp-core/bp-core-functions.php:4232
 msgid ""
 "Your membership request for the group \"{{group.name}}\" has been rejected.\n"
 "\n"
@@ -4170,7 +4301,7 @@ msgid ""
 msgstr ""
 
 #. translators: do not remove {} brackets or translate its contents.
-#: bp-core/bp-core-functions.php:4235
+#: bp-core/bp-core-functions.php:4238
 msgid ""
 "An administrator accepted an invitation to join &quot;<a href=\"{{{group.url}}}\">{{group.name}}</a>&quot; on your behalf.\n"
 "\n"
@@ -4178,7 +4309,7 @@ msgid ""
 msgstr ""
 
 #. translators: do not remove {} brackets or translate its contents.
-#: bp-core/bp-core-functions.php:4237
+#: bp-core/bp-core-functions.php:4240
 msgid ""
 "An administrator accepted an invitation to join \"{{group.name}}\" on your behalf.\n"
 "\n"
@@ -4186,7 +4317,7 @@ msgid ""
 msgstr ""
 
 #. translators: do not remove {} brackets or translate its contents.
-#: bp-core/bp-core-functions.php:4243
+#: bp-core/bp-core-functions.php:4246
 msgid ""
 "An administrator rejected an invitation to join &quot;<a href=\"{{{group.url}}}\">{{group.name}}</a>&quot; on your behalf.\n"
 "\n"
@@ -4194,7 +4325,7 @@ msgid ""
 msgstr ""
 
 #. translators: do not remove {} brackets or translate its contents.
-#: bp-core/bp-core-functions.php:4245
+#: bp-core/bp-core-functions.php:4248
 msgid ""
 "An administrator rejected an invitation to join \"{{group.name}}\" on your behalf.\n"
 "\n"
@@ -4202,12 +4333,12 @@ msgid ""
 msgstr ""
 
 #. translators: do not remove {} brackets or translate its contents.
-#: bp-core/bp-core-functions.php:4249
+#: bp-core/bp-core-functions.php:4252
 msgid "{{inviter.name}} has invited you to join {{site.name}}"
 msgstr ""
 
 #. translators: do not remove {} brackets or translate its contents.
-#: bp-core/bp-core-functions.php:4251
+#: bp-core/bp-core-functions.php:4254
 msgid ""
 "<a href=\"{{{inviter.url}}}\">{{inviter.name}}</a> has invited you to join the site: &quot;{{site.name}}&quot;.\n"
 "\n"
@@ -4217,7 +4348,7 @@ msgid ""
 msgstr ""
 
 #. translators: do not remove {} brackets or translate its contents.
-#: bp-core/bp-core-functions.php:4253
+#: bp-core/bp-core-functions.php:4256
 msgid ""
 "{{inviter.name}} has invited you to join the site \"{{site.name}}\".\n"
 "\n"
@@ -4230,12 +4361,12 @@ msgid ""
 msgstr ""
 
 #. translators: do not remove {} brackets or translate its contents.
-#: bp-core/bp-core-functions.php:4257
+#: bp-core/bp-core-functions.php:4260
 msgid "{{requesting-user.user_login}} would like to join {{site.name}}"
 msgstr ""
 
 #. translators: do not remove {} brackets or translate its contents.
-#: bp-core/bp-core-functions.php:4259
+#: bp-core/bp-core-functions.php:4262
 msgid ""
 "{{requesting-user.user_login}} would like to join the site: &quot;{{site.name}}&quot;.\n"
 "\n"
@@ -4243,7 +4374,7 @@ msgid ""
 msgstr ""
 
 #. translators: do not remove {} brackets or translate its contents.
-#: bp-core/bp-core-functions.php:4261
+#: bp-core/bp-core-functions.php:4264
 msgid ""
 "{{requesting-user.user_login}} would like to join the site \"{{site.name}}\".\n"
 "\n"
@@ -4251,249 +4382,249 @@ msgid ""
 msgstr ""
 
 #. translators: do not remove {} brackets or translate its contents.
-#: bp-core/bp-core-functions.php:4265
+#: bp-core/bp-core-functions.php:4268
 msgid "Your request to join {{site.name}} has been declined"
 msgstr ""
 
 #. translators: do not remove {} brackets or translate its contents.
-#: bp-core/bp-core-functions.php:4267
+#: bp-core/bp-core-functions.php:4270
 msgid "Sorry, your request to join the site &quot;{{site.name}}&quot; has been declined."
 msgstr ""
 
 #. translators: do not remove {} brackets or translate its contents.
-#: bp-core/bp-core-functions.php:4269
+#: bp-core/bp-core-functions.php:4272
 msgid "Sorry, your request to join the site \"{{site.name}}\" has been declined."
 msgstr ""
 
-#: bp-core/bp-core-functions.php:4294
+#: bp-core/bp-core-functions.php:4297
 msgid "A member has replied to an activity update that the recipient posted."
 msgstr ""
 
-#: bp-core/bp-core-functions.php:4298
-#: bp-core/bp-core-functions.php:4307
+#: bp-core/bp-core-functions.php:4301
+#: bp-core/bp-core-functions.php:4310
 msgid "You will no longer receive emails when someone replies to an update or comment you posted."
 msgstr ""
 
-#: bp-core/bp-core-functions.php:4303
+#: bp-core/bp-core-functions.php:4306
 msgid "A member has replied to a comment on an activity update that the recipient posted."
 msgstr ""
 
-#: bp-core/bp-core-functions.php:4312
+#: bp-core/bp-core-functions.php:4315
 msgid "Recipient was mentioned in an activity update."
 msgstr ""
 
-#: bp-core/bp-core-functions.php:4316
-#: bp-core/bp-core-functions.php:4325
+#: bp-core/bp-core-functions.php:4319
+#: bp-core/bp-core-functions.php:4328
 msgid "You will no longer receive emails when someone mentions you in an update."
 msgstr ""
 
-#: bp-core/bp-core-functions.php:4321
+#: bp-core/bp-core-functions.php:4324
 msgid "Recipient was mentioned in a group activity update."
 msgstr ""
 
-#: bp-core/bp-core-functions.php:4330
+#: bp-core/bp-core-functions.php:4333
 msgid "Recipient has registered for an account."
 msgstr ""
 
-#: bp-core/bp-core-functions.php:4336
+#: bp-core/bp-core-functions.php:4339
 msgid "Recipient has registered for an account and site."
 msgstr ""
 
-#: bp-core/bp-core-functions.php:4342
+#: bp-core/bp-core-functions.php:4345
 msgid "A member has sent a friend request to the recipient."
 msgstr ""
 
-#: bp-core/bp-core-functions.php:4346
+#: bp-core/bp-core-functions.php:4349
 msgid "You will no longer receive emails when someone sends you a friend request."
 msgstr ""
 
-#: bp-core/bp-core-functions.php:4351
+#: bp-core/bp-core-functions.php:4354
 msgid "Recipient has had a friend request accepted by a member."
 msgstr ""
 
-#: bp-core/bp-core-functions.php:4355
+#: bp-core/bp-core-functions.php:4358
 msgid "You will no longer receive emails when someone accepts your friendship request."
 msgstr ""
 
-#: bp-core/bp-core-functions.php:4360
+#: bp-core/bp-core-functions.php:4363
 msgid "A group's details were updated."
 msgstr ""
 
-#: bp-core/bp-core-functions.php:4364
+#: bp-core/bp-core-functions.php:4367
 msgid "You will no longer receive emails when one of your groups is updated."
 msgstr ""
 
-#: bp-core/bp-core-functions.php:4369
+#: bp-core/bp-core-functions.php:4372
 msgid "A member has sent a group invitation to the recipient."
 msgstr ""
 
-#: bp-core/bp-core-functions.php:4373
+#: bp-core/bp-core-functions.php:4376
 msgid "You will no longer receive emails when you are invited to join a group."
 msgstr ""
 
-#: bp-core/bp-core-functions.php:4378
+#: bp-core/bp-core-functions.php:4381
 msgid "Recipient's status within a group has changed."
 msgstr ""
 
-#: bp-core/bp-core-functions.php:4382
+#: bp-core/bp-core-functions.php:4385
 msgid "You will no longer receive emails when you have been promoted in a group."
 msgstr ""
 
-#: bp-core/bp-core-functions.php:4387
+#: bp-core/bp-core-functions.php:4390
 msgid "A member has requested permission to join a group."
 msgstr ""
 
-#: bp-core/bp-core-functions.php:4391
+#: bp-core/bp-core-functions.php:4394
 msgid "You will no longer receive emails when someone requests to be a member of your group."
 msgstr ""
 
-#: bp-core/bp-core-functions.php:4396
+#: bp-core/bp-core-functions.php:4399
 msgid "Recipient has received a private message."
 msgstr ""
 
-#: bp-core/bp-core-functions.php:4400
+#: bp-core/bp-core-functions.php:4403
 msgid "You will no longer receive emails when someone sends you a message."
 msgstr ""
 
-#: bp-core/bp-core-functions.php:4405
+#: bp-core/bp-core-functions.php:4408
 msgid "Recipient has changed their email address."
 msgstr ""
 
-#: bp-core/bp-core-functions.php:4411
+#: bp-core/bp-core-functions.php:4414
 msgid "Recipient had requested to join a group, which was accepted."
 msgstr ""
 
-#: bp-core/bp-core-functions.php:4415
-#: bp-core/bp-core-functions.php:4424
+#: bp-core/bp-core-functions.php:4418
+#: bp-core/bp-core-functions.php:4427
 msgid "You will no longer receive emails when your request to join a group has been accepted or denied."
 msgstr ""
 
-#: bp-core/bp-core-functions.php:4420
+#: bp-core/bp-core-functions.php:4423
 msgid "Recipient had requested to join a group, which was rejected."
 msgstr ""
 
-#: bp-core/bp-core-functions.php:4429
+#: bp-core/bp-core-functions.php:4432
 msgid "Recipient had requested to join a group, which was accepted by admin."
 msgstr ""
 
-#: bp-core/bp-core-functions.php:4435
+#: bp-core/bp-core-functions.php:4438
 msgid "Recipient had requested to join a group, which was rejected by admin."
 msgstr ""
 
-#: bp-core/bp-core-functions.php:4441
+#: bp-core/bp-core-functions.php:4444
 msgid "Recipient has successfully activated an account."
 msgstr ""
 
-#: bp-core/bp-core-functions.php:4447
+#: bp-core/bp-core-functions.php:4450
 msgid "A site member has sent a site invitation to the recipient."
 msgstr ""
 
-#: bp-core/bp-core-functions.php:4451
+#: bp-core/bp-core-functions.php:4454
 msgid "You will no longer receive emails when you are invited to join this site."
 msgstr ""
 
-#: bp-core/bp-core-functions.php:4456
+#: bp-core/bp-core-functions.php:4459
 msgid "Someone has requested membership on this site."
 msgstr ""
 
-#: bp-core/bp-core-functions.php:4460
+#: bp-core/bp-core-functions.php:4463
 msgid "You will no longer receive emails when people submit requests to join this site."
 msgstr ""
 
-#: bp-core/bp-core-functions.php:4465
+#: bp-core/bp-core-functions.php:4468
 msgid "A site membership request has been rejected."
 msgstr ""
 
-#: bp-core/bp-core-functions.php:4526
-#: bp-core/bp-core-functions.php:4532
-#: bp-core/bp-core-functions.php:4537
+#: bp-core/bp-core-functions.php:4529
+#: bp-core/bp-core-functions.php:4535
+#: bp-core/bp-core-functions.php:4540
 msgid "Something has gone wrong."
 msgstr ""
 
-#: bp-core/bp-core-functions.php:4527
-#: bp-core/bp-core-functions.php:4533
+#: bp-core/bp-core-functions.php:4530
+#: bp-core/bp-core-functions.php:4536
 msgid "Please log in and go to your settings to unsubscribe from notification emails."
 msgstr ""
 
-#: bp-core/bp-core-functions.php:4538
+#: bp-core/bp-core-functions.php:4541
 msgid "Please go to your notifications settings to unsubscribe from emails."
 msgstr ""
 
-#: bp-core/bp-core-functions.php:4554
+#: bp-core/bp-core-functions.php:4557
 msgid "You have already unsubscribed from all communication from this site."
 msgstr ""
 
-#: bp-core/bp-core-functions.php:4564
+#: bp-core/bp-core-functions.php:4567
 msgid "You have been unsubscribed."
 msgstr ""
 
-#: bp-core/bp-core-functions.php:4588
+#: bp-core/bp-core-functions.php:4591
 msgid "You can change this or any other email notification preferences in your email settings."
 msgstr ""
 
-#: bp-core/bp-core-functions.php:4612
-#: bp-core/bp-core-functions.php:4624
+#: bp-core/bp-core-functions.php:4615
+#: bp-core/bp-core-functions.php:4627
 msgid "Go to website's home page."
 msgstr ""
 
-#: bp-core/bp-core-functions.php:5215
+#: bp-core/bp-core-functions.php:5218
 msgid "Discover BuddyPress Add-ons"
 msgstr ""
 
-#: bp-core/bp-core-functions.php:5216
+#: bp-core/bp-core-functions.php:5219
 msgid "Hello BuddyPress Add-ons!"
 msgstr ""
 
-#: bp-core/bp-core-functions.php:5217
+#: bp-core/bp-core-functions.php:5220
 msgid "Add-ons are features as Plugins or Blocks maintained by the BuddyPress development team & hosted on the WordPress.org plugins directory."
 msgstr ""
 
-#: bp-core/bp-core-functions.php:5218
+#: bp-core/bp-core-functions.php:5221
 msgid "Thanks to this new tab inside your Dashboard screen to add plugins, you’ll be able to find them faster and eventually contribute to beta features early to give the BuddyPress development team your feedbacks."
 msgstr ""
 
-#: bp-core/bp-core-functions.php:5231
-#: bp-core/bp-core-functions.php:5251
+#: bp-core/bp-core-functions.php:5234
+#: bp-core/bp-core-functions.php:5254
 msgid "Get The BP Classic Add-on"
 msgstr ""
 
-#: bp-core/bp-core-functions.php:5232
+#: bp-core/bp-core-functions.php:5235
 msgid "Get ready for the brand-new BP Rewrites API!"
 msgstr ""
 
-#: bp-core/bp-core-functions.php:5233
+#: bp-core/bp-core-functions.php:5236
 msgid "Our next major version (12.0.0) will introduce several large changes that could be incompatible with your site's configuration. To prevent problems, we've built the BP Classic Add-on, which you may want to proactively install if any of the following cases:"
 msgstr ""
 
-#: bp-core/bp-core-functions.php:5234
+#: bp-core/bp-core-functions.php:5237
 msgid "Some of your BuddyPress plugins have not been updated lately."
 msgstr ""
 
-#: bp-core/bp-core-functions.php:5235
+#: bp-core/bp-core-functions.php:5238
 msgid "BuddyPress 12.0.0 introduces the BP Rewrites API, which completely changes the way BuddyPress URLs are built and routed. This fundamental change requires most BuddyPress plugins to update how they deal with BuddyPress URLs. If your BuddyPress plugins have not been updated in the last few months, they are probably not ready for BuddyPress 12.0.0."
 msgstr ""
 
-#: bp-core/bp-core-functions.php:5236
+#: bp-core/bp-core-functions.php:5239
 msgid "You are still using the BP Default theme."
 msgstr ""
 
-#: bp-core/bp-core-functions.php:5237
+#: bp-core/bp-core-functions.php:5240
 msgid "You still use a BP Legacy Widget."
 msgstr ""
 
-#: bp-core/bp-core-functions.php:5238
+#: bp-core/bp-core-functions.php:5241
 msgid "If any of the above items are true, we strongly advise you to install and activate the Classic Add-on before updating to BuddyPress 12.0.0."
 msgstr ""
 
-#: bp-core/bp-core-functions.php:5252
+#: bp-core/bp-core-functions.php:5255
 msgid "Thank you for installing BuddyPress 12.0!"
 msgstr ""
 
-#: bp-core/bp-core-functions.php:5253
+#: bp-core/bp-core-functions.php:5256
 msgid "BuddyPress 12.0 introduces major core changes, overhauling the way that BuddyPress builds and parses URLs."
 msgstr ""
 
-#: bp-core/bp-core-functions.php:5254
+#: bp-core/bp-core-functions.php:5257
 msgid "If you find that your site is not working correctly with the new version, try installing the new BP Classic Add-on that adds backwards compatibility for plugins and themes that have not yet been updated to work with BuddyPress 12.0."
 msgstr ""
 
@@ -4521,11 +4652,13 @@ msgstr ""
 
 #. translators: %1$s and %2$s is replaced with the registered type(s)
 #: bp-core/bp-core-rest-api.php:241
+#, php-format
 msgid "The member type you provided, %1$s, is not one of %2$s."
 msgstr ""
 
 #. translators: %1$s and %2$s is replaced with the registered types
 #: bp-core/bp-core-rest-api.php:290
+#, php-format
 msgid "The group type you provided, %1$s, is not one of %2$s."
 msgstr ""
 
@@ -4547,6 +4680,7 @@ msgstr ""
 
 #. translators: %s: Name of the BuddyPress component
 #: bp-core/bp-core-template.php:136
+#, php-format
 msgid "%s Directory"
 msgstr ""
 
@@ -4583,16 +4717,16 @@ msgstr ""
 msgid "Community"
 msgstr ""
 
-#: bp-core/bp-core-template.php:2018
+#: bp-core/bp-core-template.php:2031
 msgid "The cover image is a Members component feature, please use bp_is_active( 'members', 'cover_image' ) instead."
 msgstr ""
 
-#: bp-core/bp-core-template.php:3103
+#: bp-core/bp-core-template.php:3116
 msgctxt "component directory title"
 msgid "Directory"
 msgstr ""
 
-#: bp-core/bp-core-template.php:3112
+#: bp-core/bp-core-template.php:3125
 #: bp-groups/bp-groups-template.php:3648
 #: bp-groups/bp-groups-template.php:3649
 #: bp-members/bp-members-membership-requests.php:401
@@ -4605,29 +4739,30 @@ msgstr ""
 msgid "Request Membership"
 msgstr ""
 
-#: bp-core/bp-core-template.php:3114
+#: bp-core/bp-core-template.php:3127
 #: bp-members/classes/class-bp-registration-theme-compat.php:103
 msgid "Create an Account"
 msgstr ""
 
-#: bp-core/bp-core-template.php:3119
+#: bp-core/bp-core-template.php:3132
 #: bp-members/classes/class-bp-registration-theme-compat.php:116
 msgid "Activate Your Account"
 msgstr ""
 
-#: bp-core/bp-core-template.php:3123
+#: bp-core/bp-core-template.php:3136
 #: bp-groups/bp-groups-template.php:3726
 #: bp-templates/bp-nouveau/includes/groups/functions.php:590
 msgid "Create a Group"
 msgstr ""
 
-#: bp-core/bp-core-template.php:3762
+#: bp-core/bp-core-template.php:3775
 msgctxt "Unnamed recipient salutation"
 msgid "Hi,"
 msgstr ""
 
 #. translators: %s: the email token for the recipient name
-#: bp-core/bp-core-template.php:3785
+#: bp-core/bp-core-template.php:3798
+#, php-format
 msgctxt "Named recipient salutation"
 msgid "Hi %s,"
 msgstr ""
@@ -4671,6 +4806,7 @@ msgstr ""
 
 #. translators: %s is the name of the Type meta key
 #: bp-core/classes/class-bp-admin-types.php:382
+#, php-format
 msgid "As a result, the form elements for the \"%s\" meta key cannot be displayed"
 msgstr ""
 
@@ -4932,6 +5068,7 @@ msgstr ""
 
 #. translators: %s is the placeholder for the BuddyPress version number.
 #: bp-core/classes/class-bp-admin.php:811
+#, php-format
 msgid "BuddyPress %s"
 msgstr ""
 
@@ -4965,6 +5102,7 @@ msgstr ""
 
 #. Translators: %s is a the link to the new User Documentation on GitHub
 #: bp-core/classes/class-bp-admin.php:838
+#, php-format
 msgid "Most BuddyPress Admin screens now have a help tab in their top right corner which includes a link to an updated %s."
 msgstr ""
 
@@ -4974,6 +5112,7 @@ msgstr ""
 
 #. translators: %s is the placeholder for the link to a developer note.
 #: bp-core/classes/class-bp-admin.php:851
+#, php-format
 msgid "Whether BuddyPress is installed on a multisite network or on a single site, %s are now managed the exact same way."
 msgstr ""
 
@@ -4983,6 +5122,7 @@ msgstr ""
 
 #. translators: %s is the placeholder for the link to a developer note.
 #: bp-core/classes/class-bp-admin.php:864
+#, php-format
 msgid "Speaking of signups, the %s has been improved so that you can now submit values for any xProfile field registered as part of the Signups profile field group."
 msgstr ""
 
@@ -4992,6 +5132,7 @@ msgstr ""
 
 #. translators: %s is the placeholder for the link to a developer note.
 #: bp-core/classes/class-bp-admin.php:877
+#, php-format
 msgid "Last but not least, we again offer native support for overriding BuddyPress’s language with your community vocabulary using %s."
 msgstr ""
 
@@ -5001,6 +5142,7 @@ msgstr ""
 
 #. Translators: %s is a black cat emoji.
 #: bp-core/classes/class-bp-admin.php:894
+#, php-format
 msgid "Compared to our previous major version (12.0.0 - the number right after was too intimidating %s), 14.0.0 is a quieter update."
 msgstr ""
 
@@ -5014,6 +5156,7 @@ msgstr ""
 
 #. Translators: %s is a the link to the new Contributor Documentation on GitHub
 #: bp-core/classes/class-bp-admin.php:917
+#, php-format
 msgid "Don’t hesitate to send us some encouraging words and please consider contributing back to %s."
 msgstr ""
 
@@ -5032,6 +5175,7 @@ msgstr ""
 
 #. translators: %s is the placeholder for the link to BuddyPress support forums.
 #: bp-core/classes/class-bp-admin.php:935
+#, php-format
 msgid "Please %s about this version of BuddyPress on our website."
 msgstr ""
 
@@ -5041,11 +5185,13 @@ msgstr ""
 
 #. Translators: %s is a smiling face with heart-eyes emoji.
 #: bp-core/classes/class-bp-admin.php:948
+#, php-format
 msgid "Many thanks to you for trusting BuddyPress to power your community site %s"
 msgstr ""
 
 #. translators: 1: heart dashicons. 2: BP Credits screen url. 3: number of BuddyPress contributors to this version.
 #: bp-core/classes/class-bp-admin.php:966
+#, php-format
 msgid "Built with %1$s by <a href=\"%2$s\">%3$d volunteer</a>."
 msgid_plural "Built with %1$s by <a href=\"%2$s\">%3$d volunteers</a>."
 msgstr[0] ""
@@ -5109,11 +5255,13 @@ msgstr ""
 
 #. translators: %s: BuddyPress version number
 #: bp-core/classes/class-bp-admin.php:1138
+#, php-format
 msgid "Noteworthy Contributors to %s"
 msgstr ""
 
 #. translators: %s: BuddyPress version number
 #: bp-core/classes/class-bp-admin.php:1162
+#, php-format
 msgid "All Contributors to BuddyPress %s"
 msgstr ""
 
@@ -5144,12 +5292,14 @@ msgstr ""
 
 #. translators: %s: Max file size for the profile photo
 #: bp-core/classes/class-bp-attachment-avatar.php:43
+#, php-format
 msgctxt "profile photo upload error"
 msgid "That photo is too big. Please upload one smaller than %s"
 msgstr ""
 
 #. translators: %s: comma separated list of file types allowed for the profile photo
 #: bp-core/classes/class-bp-attachment-avatar.php:46
+#, php-format
 msgctxt "profile photo upload error"
 msgid "Please upload only this file type: %s."
 msgid_plural "Please upload only these file types: %s."
@@ -5219,12 +5369,14 @@ msgstr ""
 
 #. translators: %s: Max file size for the cover image
 #: bp-core/classes/class-bp-attachment-cover-image.php:43
+#, php-format
 msgctxt "cover image upload error"
 msgid "That image is too big. Please upload one smaller than %s"
 msgstr ""
 
 #. translators: %s: comma separated list of file types allowed for the cover image
 #: bp-core/classes/class-bp-attachment-cover-image.php:46
+#, php-format
 msgctxt "cover image upload error"
 msgid "Please upload only this file type: %s."
 msgid_plural "Please upload only these file types: %s."
@@ -5270,6 +5422,7 @@ msgstr ""
 
 #. translators: %s: Max file size for the file
 #: bp-core/classes/class-bp-attachment.php:169
+#, php-format
 msgid "The uploaded file exceeds the maximum allowed file size of: %s"
 msgstr ""
 
@@ -5313,6 +5466,7 @@ msgstr ""
 
 #. translators: %s: image file extension
 #: bp-core/classes/class-bp-attachment.php:543
+#, php-format
 msgid "Cropping the file failed: %s is not a supported image file."
 msgstr ""
 
@@ -5388,11 +5542,13 @@ msgstr ""
 #: bp-templates/bp-nouveau/includes/activity/functions.php:93
 #: bp-groups/blocks/groups/index.js:1
 #: bp-members/blocks/members/index.js:1
+#, php-format,js-format
 msgid "Profile photo of %s"
 msgstr ""
 
 #. translators: %s: last activity timestamp (e.g. "Active 1 hour ago")
 #: bp-core/classes/class-bp-core-user.php:209
+#, php-format
 msgctxt "last time the user was active"
 msgid "Active %s"
 msgstr ""
@@ -5400,6 +5556,7 @@ msgstr ""
 #. translators: %s: total groups count
 #: bp-core/classes/class-bp-core-user.php:225
 #: bp-groups/classes/class-bp-groups-invite-template.php:303
+#, php-format
 msgid "%d group"
 msgid_plural "%d groups"
 msgstr[0] ""
@@ -5466,6 +5623,7 @@ msgstr ""
 
 #. translators: %d: accessibility text.
 #: bp-core/classes/class-bp-optouts-list-table.php:270
+#, php-format
 msgid "Select opt-out request: %d"
 msgstr ""
 
@@ -5537,21 +5695,25 @@ msgstr ""
 
 #. translators: %$1s and %$2s is replaced with the correct sizes.
 #: bp-core/classes/trait-attachments.php:128
+#, php-format
 msgid "You have selected an image that is smaller than recommended. For better results, make sure to upload an image that is larger than %1$spx wide, and %2$spx tall."
 msgstr ""
 
 #. translators: %s: the upload error message
 #: bp-core/classes/trait-attachments.php:183
+#, php-format
 msgid "Upload failed! Error was: %s."
 msgstr ""
 
 #. translators: %1$s and %2$s is replaced with the correct sizes.
 #: bp-core/classes/trait-attachments.php:208
+#, php-format
 msgid "You have selected an image that is smaller than recommended. For best results, upload a picture larger than %1$s x %2$s pixels."
 msgstr ""
 
 #. translators: %s is replaced with object type.
 #: bp-core/classes/trait-attachments.php:371
+#, php-format
 msgid "There was a problem cropping your %s photo."
 msgstr ""
 
@@ -5591,12 +5753,14 @@ msgstr ""
 
 #. translators: 1: the poster name. 2: the group name.
 #: bp-core/deprecated/1.5.php:374
+#, php-format
 msgctxt "deprecated string"
 msgid "%1$s mentioned you in the group \"%2$s\""
 msgstr ""
 
 #. translators: 1: the poster name. 2: the group name. 3: the content of the activity. 4: the activity permalink.
 #: bp-core/deprecated/1.5.php:382
+#, php-format
 msgctxt "deprecated string"
 msgid ""
 "%1$s mentioned you in the group \"%2$s\":\n"
@@ -5622,6 +5786,7 @@ msgstr ""
 #: bp-core/deprecated/1.5.php:818
 #: bp-core/deprecated/12.0.php:1035
 #: bp-groups/bp-groups-template.php:4491
+#, php-format
 msgid "joined %s"
 msgstr ""
 
@@ -5659,6 +5824,7 @@ msgstr ""
 
 #. translators: %s: the documentation page link giving more information
 #: bp-core/deprecated/2.8.php:148
+#, php-format
 msgid "See %s for more information."
 msgstr ""
 
@@ -5674,12 +5840,14 @@ msgstr ""
 
 #. translators: %s: the site's PHP version number
 #: bp-core/deprecated/2.8.php:209
+#, php-format
 msgctxt "deprecated string"
 msgid "Your site is currently running PHP version %s, while BuddyPress 2.8 will require version 5.3+."
 msgstr ""
 
 #. translators: %s: the url to a codex page
 #: bp-core/deprecated/2.8.php:214
+#, php-format
 msgctxt "deprecated string"
 msgid "See %s for more information."
 msgstr ""
@@ -5691,12 +5859,14 @@ msgstr ""
 
 #. translators: %s: member name
 #: bp-core/deprecated/3.0.php:176
+#, php-format
 msgctxt "deprecated string"
 msgid "%s has been deleted from the system."
 msgstr ""
 
 #. translators: %s: member name
 #: bp-core/deprecated/3.0.php:181
+#, php-format
 msgctxt "deprecated string"
 msgid "There was an error deleting %s from the system. Please try again."
 msgstr ""
@@ -5723,16 +5893,19 @@ msgstr ""
 
 #. translators: %s: the User Display Name
 #: bp-core/deprecated/12.0.php:664
+#, php-format
 msgid "%s's Sites"
 msgstr ""
 
 #. translators: %s: the User Display Name
 #: bp-core/deprecated/12.0.php:672
+#, php-format
 msgid "%s's Recent Posts"
 msgstr ""
 
 #. translators: %s: the User Display Name
 #: bp-core/deprecated/12.0.php:680
+#, php-format
 msgid "%s's Recent Comments"
 msgstr ""
 
@@ -5759,6 +5932,7 @@ msgstr ""
 #. translators: %s: member name
 #: bp-core/deprecated/12.0.php:1315
 #: bp-friends/bp-friends-blocks.php:120
+#, php-format
 msgid "%s's Friends"
 msgstr ""
 
@@ -5773,6 +5947,7 @@ msgstr ""
 
 #. translators: %s: member name
 #: bp-core/deprecated/12.0.php:1358
+#, php-format
 msgid "%s hasn't created any friend connections yet."
 msgstr ""
 
@@ -5794,6 +5969,7 @@ msgstr ""
 
 #. Translators: %s is the url to the BuddyPress codex page about BP Email tokens.
 #: bp-core/deprecated/14.0.php:81
+#, php-format
 msgid "Phrases wrapped in braces <code>{{ }}</code> are email tokens. <a href=\"%s\">Learn about tokens on the BuddyPress Codex</a>."
 msgstr ""
 
@@ -5846,6 +6022,7 @@ msgstr ""
 #. translators: 1: the initiator user link. 2: the friend user link.
 #: bp-friends/bp-friends-activity.php:149
 #: bp-friends/bp-friends-activity.php:184
+#, php-format
 msgid "%1$s and %2$s are now friends"
 msgstr ""
 
@@ -5877,6 +6054,7 @@ msgstr ""
 #. translators: %s is time elapsed since the registration date happened
 #: bp-friends/bp-friends-blocks.php:183
 #: bp-members/bp-members-blocks.php:480
+#, php-format
 msgctxt "The timestamp when the user registered"
 msgid "Registered %s"
 msgstr ""
@@ -5885,6 +6063,7 @@ msgstr ""
 #: bp-friends/bp-friends-blocks.php:186
 #: bp-friends/bp-friends-template.php:656
 #: bp-members/bp-members-blocks.php:483
+#, php-format
 msgid "%s friend"
 msgid_plural "%s friends"
 msgstr[0] ""
@@ -5910,6 +6089,7 @@ msgstr[1] ""
 #: bp-groups/blocks/groups/index.js:2
 #: bp-members/blocks/dynamic-widget/index.js:3
 #: bp-members/blocks/members/index.js:2
+#, php-format,js-format
 msgid "Active %s"
 msgstr ""
 
@@ -5986,21 +6166,25 @@ msgstr ""
 
 #. translators: %d: the number of friends
 #: bp-friends/bp-friends-notifications.php:43
+#, php-format
 msgid "%d friends accepted your friendship requests"
 msgstr ""
 
 #. translators: %s: friend name
 #: bp-friends/bp-friends-notifications.php:47
+#, php-format
 msgid "%s accepted your friendship request"
 msgstr ""
 
 #. translators: %d: the number of pending requests
 #: bp-friends/bp-friends-notifications.php:65
+#, php-format
 msgid "You have %d pending friendship requests"
 msgstr ""
 
 #. translators: %s: friend name
 #: bp-friends/bp-friends-notifications.php:69
+#, php-format
 msgid "You have a friendship request from %s"
 msgstr ""
 
@@ -6021,6 +6205,7 @@ msgstr ""
 
 #. translators: %d: total friend count
 #: bp-friends/bp-friends-template.php:112
+#, php-format
 msgid "%d friend"
 msgid_plural "%d friends"
 msgstr[0] ""
@@ -6072,17 +6257,20 @@ msgstr ""
 
 #. translators: %s: Friend count for the current user
 #: bp-friends/classes/class-bp-friends-component.php:216
+#, php-format
 msgid "Friends %s"
 msgstr ""
 
 #. translators: %s: Pending friend request count for the current user
 #: bp-friends/classes/class-bp-friends-component.php:251
+#, php-format
 msgctxt "My Account Friends menu"
 msgid "Friends %s"
 msgstr ""
 
 #. translators: %s: Pending friend request count for the current user
 #: bp-friends/classes/class-bp-friends-component.php:256
+#, php-format
 msgctxt "My Account Friends menu sub nav"
 msgid "Pending Requests %s"
 msgstr ""
@@ -6104,6 +6292,7 @@ msgstr ""
 
 #. translators: 1: the name of the method. 2: the name of the file.
 #: bp-friends/classes/class-bp-friends-friendship.php:115
+#, php-format
 msgid "%1$s no longer accepts $is_request. See the inline documentation at %2$s for more details."
 msgstr ""
 
@@ -6288,12 +6477,14 @@ msgstr ""
 
 #. translators: 1: Site Name. 2:Group Name.
 #: bp-groups/actions/feed.php:36
+#, php-format
 msgctxt "Group activity RSS title"
 msgid "%1$s | %2$s | Activity"
 msgstr ""
 
 #. translators: %s: Group Name.
 #: bp-groups/actions/feed.php:41
+#, php-format
 msgid "Activity feed for the group, %s."
 msgstr ""
 
@@ -6355,42 +6546,50 @@ msgstr ""
 
 #. translators: 1: the user link. 2: the group link.
 #: bp-groups/bp-groups-activity.php:112
+#, php-format
 msgid "%1$s created the group %2$s"
 msgstr ""
 
 #. translators: 1: the user link. 2: the group link.
 #: bp-groups/bp-groups-activity.php:141
 #: bp-groups/bp-groups-activity.php:776
+#, php-format
 msgid "%1$s joined the group %2$s"
 msgstr ""
 
 #. translators: 1: the user link. 2: the group link.
 #: bp-groups/bp-groups-activity.php:189
+#, php-format
 msgid "%1$s updated details for the group %2$s"
 msgstr ""
 
 #. translators: 1: the user link. 2: the group link.
 #: bp-groups/bp-groups-activity.php:194
+#, php-format
 msgid "%1$s changed the name and description of the group %2$s"
 msgstr ""
 
 #. translators: 1: the user link. 2: the group link. 3: the old group name. 4: the new group name.
 #: bp-groups/bp-groups-activity.php:199
+#, php-format
 msgid "%1$s changed the name of the group %2$s from \"%3$s\" to \"%4$s\""
 msgstr ""
 
 #. translators: 1: the user link. 2: the group link. 3: the old group description. 4: the new group description.
 #: bp-groups/bp-groups-activity.php:204
+#, php-format
 msgid "%1$s changed the description of the group %2$s from \"%3$s\" to \"%4$s\""
 msgstr ""
 
 #. translators: 1: the user link. 2: the group link.
 #: bp-groups/bp-groups-activity.php:208
+#, php-format
 msgid "%1$s changed the permalink of the group %2$s."
 msgstr ""
 
 #. translators: 1: the user link. 2: the group link.
 #: bp-groups/bp-groups-activity.php:240
+#, php-format
 msgid "%1$s posted an update in the group %2$s"
 msgstr ""
 
@@ -6511,21 +6710,25 @@ msgstr ""
 
 #. translators: %s: comma separated list of usernames
 #: bp-groups/bp-groups-admin.php:590
+#, php-format
 msgid "The following users could not be added to the group: %s"
 msgstr ""
 
 #. translators: %s: comma separated list of usernames
 #: bp-groups/bp-groups-admin.php:595
+#, php-format
 msgid "The following users were successfully added to the group: %s"
 msgstr ""
 
 #. translators: %s: comma separated list of usernames
 #: bp-groups/bp-groups-admin.php:601
+#, php-format
 msgid "An error occurred when trying to modify the following members: %s"
 msgstr ""
 
 #. translators: %s: comma separated list of usernames
 #: bp-groups/bp-groups-admin.php:607
+#, php-format
 msgid "The following members were successfully modified: %s"
 msgstr ""
 
@@ -6580,6 +6783,7 @@ msgstr ""
 
 #. translators: %s: number of deleted groups
 #: bp-groups/bp-groups-admin.php:797
+#, php-format
 msgid "%s group has been permanently deleted."
 msgid_plural "%s groups have been permanently deleted."
 msgstr[0] ""
@@ -6792,6 +6996,7 @@ msgstr ""
 
 #. translators: 1: group member from number. 2: group member to number. 3: total group members.
 #: bp-groups/bp-groups-admin.php:1303
+#, php-format
 msgctxt "Group members pagination in group admin"
 msgid "Viewing %1$s - %2$s of %3$s member"
 msgid_plural "Viewing %1$s - %2$s of %3$s members"
@@ -6800,6 +7005,7 @@ msgstr[1] ""
 
 #. Translators: 1: user_login, 2: user_email.
 #: bp-groups/bp-groups-admin.php:1373
+#, php-format
 msgid "%1$s (%2$s)"
 msgstr ""
 
@@ -6853,12 +7059,14 @@ msgstr ""
 
 #. translators: %s the group menu name
 #: bp-groups/bp-groups-adminbar.php:72
+#, php-format
 msgctxt "Group WP Admin Bar manage links"
 msgid "Edit Group %s"
 msgstr ""
 
 #. translators: %s the group menu name
 #: bp-groups/bp-groups-adminbar.php:77
+#, php-format
 msgctxt "Group WP Admin Bar delete link"
 msgid "%s Group"
 msgstr ""
@@ -6868,11 +7076,13 @@ msgstr ""
 #: bp-groups/bp-groups-blocks.php:262
 #: bp-groups/bp-groups-blocks.php:487
 #: bp-groups/blocks/dynamic-widget/index.js:8
+#, php-format,js-format
 msgid "Group Profile photo of %s"
 msgstr ""
 
 #. translators: %d: the number of group members.
 #: bp-groups/bp-groups-blocks.php:295
+#, php-format
 msgid "%d member"
 msgid_plural "%d members"
 msgstr[0] ""
@@ -6910,6 +7120,7 @@ msgstr ""
 #. translators: %s is time elapsed since the group was created
 #: bp-groups/bp-groups-blocks.php:460
 #: bp-groups/blocks/dynamic-widget/index.js:3
+#, php-format,js-format
 msgid "Created %s"
 msgstr ""
 
@@ -6917,6 +7128,7 @@ msgstr ""
 #: bp-groups/bp-groups-blocks.php:465
 #: bp-groups/bp-groups-template.php:2293
 #: bp-templates/bp-nouveau/buddypress/members/single/groups/invites.php:41
+#, php-format
 msgid "%s member"
 msgid_plural "%s members"
 msgstr[0] ""
@@ -6976,6 +7188,7 @@ msgstr ""
 #: bp-groups/bp-groups-functions.php:2380
 #: bp-groups/bp-groups-functions.php:2414
 #: bp-groups/bp-groups-functions.php:2452
+#, php-format
 msgid "Argument `membership_id` passed to %1$s is deprecated. See the inline documentation at %2$s for more details."
 msgstr ""
 
@@ -7226,6 +7439,7 @@ msgstr ""
 
 #. translators: %s: total member count
 #: bp-groups/bp-groups-functions.php:4013
+#, php-format
 msgctxt "Group read screen"
 msgid "Members %s"
 msgstr ""
@@ -7277,18 +7491,21 @@ msgstr ""
 
 #. translators: 1: the old group name. 2: the new group name.
 #: bp-groups/bp-groups-notifications.php:35
+#, php-format
 msgctxt "Group update email text"
 msgid "* Name changed from \"%1$s\" to \"%2$s\"."
 msgstr ""
 
 #. translators: 1: the old group description. 2: the new group description.
 #: bp-groups/bp-groups-notifications.php:44
+#, php-format
 msgctxt "Group update email text"
 msgid "* Description changed from \"%1$s\" to \"%2$s\"."
 msgstr ""
 
 #. translators: 1: the old group permalink. 2: the new group permalink.
 #: bp-groups/bp-groups-notifications.php:53
+#, php-format
 msgctxt "Group update email text"
 msgid "* Permalink changed from \"%1$s\" to \"%2$s\"."
 msgstr ""
@@ -7303,61 +7520,73 @@ msgstr ""
 
 #. translators: 1: number of group membership requests. 2: group name.
 #: bp-groups/bp-groups-notifications.php:411
+#, php-format
 msgid "%1$d new membership requests for the group \"%2$s\""
 msgstr ""
 
 #. translators: %s: member name
 #: bp-groups/bp-groups-notifications.php:467
+#, php-format
 msgid "%s requests group membership"
 msgstr ""
 
 #. translators: 1: number of accepted group membership requests. 2: group name.
 #: bp-groups/bp-groups-notifications.php:531
+#, php-format
 msgid "%1$d accepted group membership requests for the group \"%2$s\""
 msgstr ""
 
 #. translators: %s: group name.
 #: bp-groups/bp-groups-notifications.php:575
+#, php-format
 msgid "Membership for group \"%s\" accepted"
 msgstr ""
 
 #. translators: 1: number of accepted group membership requests. 2: group name.
 #: bp-groups/bp-groups-notifications.php:626
+#, php-format
 msgid "%1$d rejected group membership requests for the group \"%2$s\""
 msgstr ""
 
 #. translators: %s: group name.
 #: bp-groups/bp-groups-notifications.php:670
+#, php-format
 msgid "Membership for group \"%s\" rejected"
 msgstr ""
 
 #. translators: %d: number of groups the user has been promoted admin for
 #: bp-groups/bp-groups-notifications.php:720
+#, php-format
 msgid "You were promoted to an admin in %d groups"
 msgstr ""
 
 #. translators: %s: group name.
 #: bp-groups/bp-groups-notifications.php:760
+#, php-format
 msgid "You were promoted to an admin in the group \"%s\""
 msgstr ""
 
 #. translators: %d: number of groups the user has been promoted mod for
 #: bp-groups/bp-groups-notifications.php:808
+#, php-format
 msgid "You were promoted to a mod in %d groups"
 msgstr ""
 
 #. translators: %s: group name.
 #: bp-groups/bp-groups-notifications.php:848
+#, php-format
 msgid "You were promoted to a mod in the group \"%s\""
 msgstr ""
 
 #. translators: %d: number of group invites
 #: bp-groups/bp-groups-notifications.php:900
+#, php-format
 msgid "You have %d new group invitations"
 msgstr ""
 
 #. translators: %s: group name.
 #: bp-groups/bp-groups-notifications.php:935
+#, php-format
 msgid "You have an invitation to the group: %s"
 msgstr ""
 
@@ -7423,6 +7652,7 @@ msgstr ""
 
 #. translators: %1$s is the name of the group.
 #: bp-groups/bp-groups-template.php:988
+#, php-format
 msgid "Group logo of %1$s"
 msgstr ""
 
@@ -7432,6 +7662,7 @@ msgstr ""
 
 #. translators: %s: group creator name
 #: bp-groups/bp-groups-template.php:1873
+#, php-format
 msgid "Group creator profile photo of %s"
 msgstr ""
 
@@ -7449,6 +7680,7 @@ msgstr ""
 
 #. translators: 1: group from number. 2: group to number. 3: total groups.
 #: bp-groups/bp-groups-template.php:2183
+#, php-format
 msgid "Viewing %1$s - %2$s of %3$s group"
 msgid_plural "Viewing %1$s - %2$s of %3$s groups"
 msgstr[0] ""
@@ -7510,6 +7742,7 @@ msgstr ""
 
 #. translators: 1: group member from number. 2: group member to number. 3: total group members.
 #: bp-groups/bp-groups-template.php:4630
+#, php-format
 msgctxt "group members pagination"
 msgid "Viewing %1$s - %2$s of %3$s member"
 msgid_plural "Viewing %1$s - %2$s of %3$s members"
@@ -7564,6 +7797,7 @@ msgstr ""
 
 #. translators: %s: group type singular name
 #: bp-groups/bp-groups-template.php:5636
+#, php-format
 msgid "Viewing groups of the type: %s"
 msgstr ""
 
@@ -7573,6 +7807,7 @@ msgstr ""
 
 #. translators: %s: human time diff
 #: bp-groups/bp-groups-template.php:6066
+#, php-format
 msgid "requested %s"
 msgstr ""
 
@@ -7582,6 +7817,7 @@ msgstr ""
 
 #. translators: 1: group request from number. 2: group request to number. 3: total group requests.
 #: bp-groups/bp-groups-template.php:6146
+#, php-format
 msgid "Viewing %1$s - %2$s of %3$s request"
 msgid_plural "Viewing %1$s - %2$s of %3$s requests"
 msgstr[0] ""
@@ -7594,6 +7830,7 @@ msgstr ""
 
 #. translators: 1: Invitations from number. 2: Invitations to number. 3: Total invitations.
 #: bp-groups/bp-groups-template.php:6436
+#, php-format
 msgctxt "Group invites pagination"
 msgid "Viewing %1$s - %2$s of %3$s invitation"
 msgid_plural "Viewing %1$s - %2$s of %3$s invitations"
@@ -7606,6 +7843,7 @@ msgstr ""
 
 #. translators: %s: number of groups
 #: bp-groups/bp-groups-template.php:6761
+#, php-format
 msgid "%s group"
 msgid_plural "%s groups"
 msgstr[0] ""
@@ -7622,6 +7860,7 @@ msgstr[1] ""
 #: bp-groups/classes/class-bp-group-extension.php:417
 #: bp-groups/classes/class-bp-group-extension.php:432
 #: bp-groups/classes/class-bp-group-extension.php:447
+#, php-format
 msgid "Method '%s' not implemented. Must be overridden in subclass."
 msgstr ""
 
@@ -7647,6 +7886,7 @@ msgstr ""
 
 #. translators: %s: Group count for the current user
 #: bp-groups/classes/class-bp-groups-component.php:686
+#, php-format
 msgctxt "Group screen nav with counter"
 msgid "Groups %s"
 msgstr ""
@@ -7663,12 +7903,14 @@ msgstr ""
 
 #. translators: %s: Group invitation count for the current user
 #: bp-groups/classes/class-bp-groups-component.php:858
+#, php-format
 msgctxt "My Account Groups nav"
 msgid "Groups %s"
 msgstr ""
 
 #. translators: %s: Group invitation count for the current user
 #: bp-groups/classes/class-bp-groups-component.php:864
+#, php-format
 msgctxt "My Account Groups sub nav"
 msgid "Pending Invites %s"
 msgstr ""
@@ -7698,12 +7940,14 @@ msgstr ""
 
 #. translators: 1: the name of the method. 2: the name of the file.
 #: bp-groups/classes/class-bp-groups-group.php:710
+#, php-format
 msgid "%1$s no longer accepts a table name argument. See the inline documentation at %2$s for more details."
 msgstr ""
 
 #. translators: 1: the name of the method. 2: the name of the file.
 #: bp-groups/classes/class-bp-groups-group.php:1618
 #: bp-groups/classes/class-bp-groups-group.php:1681
+#, php-format
 msgid "%1$s no longer accepts setting $populate_extras. See the inline documentation at %2$s for more details."
 msgstr ""
 
@@ -7723,6 +7967,7 @@ msgstr ""
 
 #. translators: %s is the placeholder for the count html `<span class="count"/>`
 #: bp-groups/classes/class-bp-groups-list-table.php:388
+#, php-format
 msgid "Public %s"
 msgid_plural "Public %s"
 msgstr[0] ""
@@ -7730,6 +7975,7 @@ msgstr[1] ""
 
 #. translators: %s is the placeholder for the count html `<span class="count"/>`
 #: bp-groups/classes/class-bp-groups-list-table.php:400
+#, php-format
 msgid "Private %s"
 msgid_plural "Private %s"
 msgstr[0] ""
@@ -7737,6 +7983,7 @@ msgstr[1] ""
 
 #. translators: %s is the placeholder for the count html tag
 #: bp-groups/classes/class-bp-groups-list-table.php:412
+#, php-format
 msgid "Hidden %s"
 msgid_plural "Hidden %s"
 msgstr[0] ""
@@ -7769,6 +8016,7 @@ msgstr ""
 
 #. translators: accessibility text
 #: bp-groups/classes/class-bp-groups-list-table.php:560
+#, php-format
 msgid "Select group %1$d"
 msgstr ""
 
@@ -8531,6 +8779,7 @@ msgstr ""
 
 #. translators: %s: group link
 #: bp-groups/screens/user/invites.php:31
+#, php-format
 msgid "Group invite accepted. View %s."
 msgstr ""
 
@@ -8550,11 +8799,13 @@ msgstr ""
 
 #. translators: 1: current PHP version, 2: required PHP version
 #: bp-loader.php:67
+#, php-format
 msgid "Your site is currently running PHP version %1$s, while BuddyPress requires version %2$s or greater."
 msgstr ""
 
 #. translators: 1: current PHP version, 2: required PHP version
 #: bp-loader.php:67
+#, php-format
 msgid "See <a href=\"%s\">the Codex guide</a> for more information."
 msgstr ""
 
@@ -8569,6 +8820,7 @@ msgstr ""
 
 #. translators: %d: the number of invitations that were canceled.
 #: bp-members/actions/invitations-bulk-manage.php:69
+#, php-format
 msgid "%d invitation was canceled."
 msgid_plural "%d invitations were canceled."
 msgstr[0] ""
@@ -8576,6 +8828,7 @@ msgstr[1] ""
 
 #. translators: %d: the number of invitations that were resent.
 #: bp-members/actions/invitations-bulk-manage.php:86
+#, php-format
 msgid "%d invitation was resent."
 msgid_plural "%d invitations were resent."
 msgstr[0] ""
@@ -8599,16 +8852,19 @@ msgstr ""
 
 #. translators: 1: new user link. 2: inviter user link.
 #: bp-members/bp-members-activity.php:73
+#, php-format
 msgid "%1$s accepted an invitation from %2$s and became a registered member"
 msgstr ""
 
 #. translators: %s: user link
 #: bp-members/bp-members-activity.php:79
+#, php-format
 msgid "%s became a registered member"
 msgstr ""
 
 #. translators: %s: user link
 #: bp-members/bp-members-activity.php:113
+#, php-format
 msgid "%s changed their profile picture"
 msgstr ""
 
@@ -8740,6 +8996,7 @@ msgstr ""
 
 #. translators: %s: the number of admin notifications
 #: bp-members/bp-members-adminbar.php:255
+#, php-format
 msgid "You have %s new important admin notification."
 msgid_plural "You have %s new important admin notifications."
 msgstr[0] ""
@@ -8796,6 +9053,7 @@ msgstr ""
 
 #. translators: %s: The log in link `<a href="login_url">log in</a>`
 #: bp-members/bp-members-filters.php:235
+#, php-format
 msgid "Welcome! You are already a member of this site. Please %s to continue."
 msgstr ""
 
@@ -8807,6 +9065,7 @@ msgstr ""
 
 #. translators: %s: The comma separated list of inviters display names
 #: bp-members/bp-members-filters.php:262
+#, php-format
 msgid "Welcome! You&#8217;ve been invited to join the site by the following user: %s."
 msgid_plural "Welcome! You&#8217;ve been invited to join the site by the following users: %s."
 msgstr[0] ""
@@ -8826,6 +9085,7 @@ msgstr ""
 
 #. translators: 1: The log in link `<a href="login_url">log in</a>`. 2: The lost password link `<a href="lost_password_url">log in</a>`
 #: bp-members/bp-members-filters.php:307
+#, php-format
 msgid "Welcome! You are already a member of this site. Please %1$s to continue. If you have forgotten your password, you can %2$s."
 msgstr ""
 
@@ -8939,6 +9199,7 @@ msgstr ""
 
 #. translators: %s: the link to resend the activation email.
 #: bp-members/bp-members-functions.php:2460
+#, php-format
 msgctxt "WP Login screen message"
 msgid "If you have not received an email yet, %s."
 msgstr ""
@@ -9131,31 +9392,37 @@ msgstr ""
 
 #. translators: %d: the number of new users
 #: bp-members/bp-members-notifications.php:43
+#, php-format
 msgid "%d members accepted your membership invitations"
 msgstr ""
 
 #. translators: %d: the number of new users
 #: bp-members/bp-members-notifications.php:47
+#, php-format
 msgid "%d members are now members of the site"
 msgstr ""
 
 #. translators: %s: new user name
 #: bp-members/bp-members-notifications.php:56
+#, php-format
 msgid "%s accepted your membership invitation"
 msgstr ""
 
 #. translators: %s: new user name
 #: bp-members/bp-members-notifications.php:60
+#, php-format
 msgid "%s is now a member of the site"
 msgstr ""
 
 #. translators: %d: is the number of people who requested site membership
 #: bp-members/bp-members-notifications.php:75
+#, php-format
 msgid "%d people have requested site membership."
 msgstr ""
 
 #. translators: %s: new user name
 #: bp-members/bp-members-notifications.php:86
+#, php-format
 msgid "%s has requested site membership."
 msgstr ""
 
@@ -9190,6 +9457,7 @@ msgstr ""
 
 #. translators: 1: active member from number. 2: active member to number. 3: total active members.
 #: bp-members/bp-members-template.php:520
+#, php-format
 msgid "Viewing %1$s - %2$s of %3$s active member"
 msgid_plural "Viewing %1$s - %2$s of %3$s active members"
 msgstr[0] ""
@@ -9201,6 +9469,7 @@ msgstr ""
 
 #. translators: 1: member with friends from number. 2: member with friends to number. 3: total members with friends.
 #: bp-members/bp-members-template.php:527
+#, php-format
 msgid "Viewing %1$s - %2$s of %3$s member with friends"
 msgid_plural "Viewing %1$s - %2$s of %3$s members with friends"
 msgstr[0] ""
@@ -9212,6 +9481,7 @@ msgstr ""
 
 #. translators: 1: online member from number. 2: online member to number. 3: total online members.
 #: bp-members/bp-members-template.php:534
+#, php-format
 msgid "Viewing %1$s - %2$s of %3$s online member"
 msgid_plural "Viewing %1$s - %2$s of %3$s online members"
 msgstr[0] ""
@@ -9219,6 +9489,7 @@ msgstr[1] ""
 
 #. translators: 1: member from number. 2: member to number. 3: total members.
 #: bp-members/bp-members-template.php:541
+#, php-format
 msgid "Viewing %1$s - %2$s of %3$s member"
 msgid_plural "Viewing %1$s - %2$s of %3$s members"
 msgstr[0] ""
@@ -9226,18 +9497,21 @@ msgstr[1] ""
 
 #. translators: %s: the member latest activity update
 #: bp-members/bp-members-template.php:1177
+#, php-format
 msgctxt "member latest update in member directory"
 msgid "- &quot;%s&quot;"
 msgstr ""
 
 #. translators: %s: last activity timestamp (e.g. "active 1 hour ago")
 #: bp-members/bp-members-template.php:1360
+#, php-format
 msgctxt "Records the timestamp that the user registered into the activity stream"
 msgid "registered %s"
 msgstr ""
 
 #. translators: %s: member type singular name
 #: bp-members/bp-members-template.php:2263
+#, php-format
 msgid "Viewing members of the type: %s"
 msgstr ""
 
@@ -9259,6 +9533,7 @@ msgstr ""
 
 #. translators: 1: Invitations from number. 2: Invitations to number. 3: Total invitations.
 #: bp-members/bp-members-template.php:3367
+#, php-format
 msgctxt "Community invites pagination"
 msgid "Viewing %1$s - %2$s of %3$s invitation"
 msgid_plural "Viewing %1$s - %2$s of %3$s invitations"
@@ -9398,6 +9673,7 @@ msgstr ""
 
 #. translators: %s: member name
 #: bp-members/classes/class-bp-members-admin.php:1063
+#, php-format
 msgctxt "members user-admin edit screen"
 msgid "%s's Stats"
 msgstr ""
@@ -9414,6 +9690,7 @@ msgstr ""
 
 #. translators: %s: User's display name.
 #: bp-members/classes/class-bp-members-admin.php:1185
+#, php-format
 msgid "Edit User %s"
 msgstr ""
 
@@ -9451,6 +9728,7 @@ msgstr ""
 
 #. translators: %s: registration date
 #: bp-members/classes/class-bp-members-admin.php:1344
+#, php-format
 msgid "Registered on: %s"
 msgstr ""
 
@@ -9461,11 +9739,13 @@ msgstr ""
 #. translators: %s: member name
 #: bp-members/classes/class-bp-members-admin.php:1379
 #: bp-xprofile/classes/class-bp-xprofile-user-admin.php:381
+#, php-format
 msgid "%s has been marked as a spammer. All BuddyPress data associated with the user has been removed"
 msgstr ""
 
 #. translators: %s: date
 #: bp-members/classes/class-bp-members-admin.php:1415
+#, php-format
 msgid "Last active: %1$s"
 msgstr ""
 
@@ -9484,6 +9764,7 @@ msgstr ""
 
 #. translators: %s: number of pending accounts
 #: bp-members/classes/class-bp-members-admin.php:1784
+#, php-format
 msgctxt "signup users"
 msgid "Pending %s"
 msgstr ""
@@ -9564,6 +9845,7 @@ msgstr ""
 
 #. translators: %s: number of activation emails sent
 #: bp-members/classes/class-bp-members-admin.php:2094
+#, php-format
 msgctxt "signup resent"
 msgid "%s activation email successfully sent! "
 msgid_plural "%s activation emails successfully sent! "
@@ -9572,6 +9854,7 @@ msgstr[1] ""
 
 #. translators: %s: number of unsent activation emails
 #: bp-members/classes/class-bp-members-admin.php:2106
+#, php-format
 msgctxt "signup notsent"
 msgid "%s activation email was not sent."
 msgid_plural "%s activation emails were not sent."
@@ -9580,6 +9863,7 @@ msgstr[1] ""
 
 #. translators: %s: number of activated accounts
 #: bp-members/classes/class-bp-members-admin.php:2130
+#, php-format
 msgctxt "signup resent"
 msgid "%s account successfully activated! "
 msgid_plural "%s accounts successfully activated! "
@@ -9588,6 +9872,7 @@ msgstr[1] ""
 
 #. translators: %s: number of accounts not activated
 #: bp-members/classes/class-bp-members-admin.php:2142
+#, php-format
 msgctxt "signup notsent"
 msgid "%s account was not activated."
 msgid_plural "%s accounts were not activated."
@@ -9596,6 +9881,7 @@ msgstr[1] ""
 
 #. translators: %s: number of deleted signups
 #: bp-members/classes/class-bp-members-admin.php:2166
+#, php-format
 msgctxt "signup deleted"
 msgid "%s sign-up successfully deleted!"
 msgid_plural "%s sign-ups successfully deleted!"
@@ -9604,6 +9890,7 @@ msgstr[1] ""
 
 #. translators: %s: number of deleted signups not deleted
 #: bp-members/classes/class-bp-members-admin.php:2178
+#, php-format
 msgctxt "signup notdeleted"
 msgid "%s sign-up was not deleted."
 msgid_plural "%s sign-ups were not deleted."
@@ -9703,6 +9990,7 @@ msgstr ""
 #. translators: %s: notification date
 #: bp-members/classes/class-bp-members-admin.php:2577
 #: bp-members/classes/class-bp-members-admin.php:3388
+#, php-format
 msgid "Last notified: %s"
 msgstr ""
 
@@ -9775,6 +10063,7 @@ msgstr ""
 
 #. translators: %s: number of invitation emails sent
 #: bp-members/classes/class-bp-members-admin.php:3049
+#, php-format
 msgctxt "members invitation resent"
 msgid "%s invtitation email successfully sent! "
 msgid_plural "%s invitation emails successfully sent! "
@@ -9783,6 +10072,7 @@ msgstr[1] ""
 
 #. translators: %s: number of unsent invitation emails
 #: bp-members/classes/class-bp-members-admin.php:3063
+#, php-format
 msgctxt "members invitation notsent"
 msgid "%s invitation email was not sent."
 msgid_plural "%s invitation emails were not sent."
@@ -9791,6 +10081,7 @@ msgstr[1] ""
 
 #. translators: %s: number of deleted invitations
 #: bp-members/classes/class-bp-members-admin.php:3089
+#, php-format
 msgctxt "members invitation deleted"
 msgid "%s invitation successfully deleted!"
 msgid_plural "%s invitations successfully deleted!"
@@ -9799,6 +10090,7 @@ msgstr[1] ""
 
 #. translators: %s: number of invitations that failed to be deleted
 #: bp-members/classes/class-bp-members-admin.php:3103
+#, php-format
 msgctxt "members invitation notdeleted"
 msgid "%s invitation was not deleted."
 msgid_plural "%s invitations were not deleted."
@@ -9979,11 +10271,13 @@ msgstr ""
 
 #. translators: %s: url to site settings
 #: bp-members/classes/class-bp-members-invitations-list-table.php:263
+#, php-format
 msgid "Invitations are not allowed. %s"
 msgstr ""
 
 #. translators: accessibility text
 #: bp-members/classes/class-bp-members-invitations-list-table.php:340
+#, php-format
 msgid "Select invitation: %s"
 msgstr ""
 
@@ -10037,12 +10331,14 @@ msgstr ""
 #. translators: %s: url to site settings
 #: bp-members/classes/class-bp-members-list-table.php:220
 #: bp-members/classes/class-bp-members-ms-list-table.php:209
+#, php-format
 msgid "Registration is disabled. %s"
 msgstr ""
 
 #. translators: accessibility text
 #: bp-members/classes/class-bp-members-list-table.php:302
 #: bp-members/classes/class-bp-members-ms-list-table.php:302
+#, php-format
 msgid "Select user: %s"
 msgstr ""
 
@@ -10267,11 +10563,13 @@ msgstr ""
 
 #. translators: %s: Field name.
 #: bp-members/classes/class-bp-rest-signup-endpoint.php:449
+#, php-format
 msgid "The %s field, and its value, are required."
 msgstr ""
 
 #. translators: %s: Field name.
 #: bp-members/classes/class-bp-rest-signup-endpoint.php:488
+#, php-format
 msgid "The %s field is required."
 msgstr ""
 
@@ -10450,6 +10748,7 @@ msgstr ""
 
 #. translators: %s: number of starred messages
 #: bp-messages/actions/bulk-manage-star.php:56
+#, php-format
 msgid "%s message was successfully starred"
 msgid_plural "%s messages were successfully starred"
 msgstr[0] ""
@@ -10457,6 +10756,7 @@ msgstr[1] ""
 
 #. translators: %s: number of unstarred messages
 #: bp-messages/actions/bulk-manage-star.php:71
+#, php-format
 msgid "%s message was successfully unstarred"
 msgid_plural "%s messages were successfully unstarred"
 msgstr[0] ""
@@ -10617,6 +10917,7 @@ msgstr ""
 
 #. translators: %s: message subject
 #: bp-messages/bp-messages-functions.php:101
+#, php-format
 msgid "Re: %s"
 msgstr ""
 
@@ -10658,16 +10959,19 @@ msgstr ""
 
 #. translators: %d: number of new messages
 #: bp-messages/bp-messages-notifications.php:37
+#, php-format
 msgid "You have %d new messages"
 msgstr ""
 
 #. translators: %s: member name
 #: bp-messages/bp-messages-notifications.php:51
+#, php-format
 msgid "%s sent you a new private message"
 msgstr ""
 
 #. translators: %s: number of private messages
 #: bp-messages/bp-messages-notifications.php:54
+#, php-format
 msgid "You have %s new private message"
 msgid_plural "You have %s new private messages"
 msgstr[0] ""
@@ -10727,6 +11031,7 @@ msgstr ""
 
 #. translators: %d: number of unread messages
 #: bp-messages/bp-messages-template.php:696
+#, php-format
 msgid "%d unread"
 msgid_plural "%d unread"
 msgstr[0] ""
@@ -10738,6 +11043,7 @@ msgstr ""
 
 #. translators: 1: message from number. 2: message to number. 3: total messages.
 #: bp-messages/bp-messages-template.php:904
+#, php-format
 msgid "Viewing %1$s - %2$s of %3$s message"
 msgid_plural "Viewing %1$s - %2$s of %3$s messages"
 msgstr[0] ""
@@ -10823,6 +11129,7 @@ msgstr ""
 
 #. translators: %s: number of message recipients
 #: bp-messages/bp-messages-template.php:1907
+#, php-format
 msgid "%s recipients"
 msgstr ""
 
@@ -10838,6 +11145,7 @@ msgstr ""
 
 #. translators: %s: last activity timestamp (e.g. "active 1 hour ago")
 #: bp-messages/bp-messages-template.php:2368
+#, php-format
 msgid "Sent %s"
 msgstr ""
 
@@ -10876,11 +11184,13 @@ msgstr ""
 #. translators: %s: Unread message count for the current user
 #: bp-messages/classes/class-bp-messages-component.php:302
 #: bp-messages/classes/class-bp-messages-component.php:330
+#, php-format
 msgid "Messages %s"
 msgstr ""
 
 #. translators: %s: Unread message count for the current user
 #: bp-messages/classes/class-bp-messages-component.php:335
+#, php-format
 msgid "Inbox %s"
 msgstr ""
 
@@ -10959,6 +11269,7 @@ msgstr ""
 
 #. translators: %s: notice subject
 #: bp-messages/classes/class-bp-messages-notices-list-table.php:137
+#, php-format
 msgctxt "Tag prepended to active site-wide notice titles on WP Admin notices list table"
 msgid "Active: %s"
 msgstr ""
@@ -10969,6 +11280,7 @@ msgstr ""
 
 #. translators: %s: number of message recipients
 #: bp-messages/classes/class-bp-messages-thread.php:1195
+#, php-format
 msgid "%s Recipients"
 msgstr ""
 
@@ -11275,6 +11587,7 @@ msgstr ""
 
 #. translators: 1: class name. 2: number of messages
 #: bp-messages/screens/view.php:59
+#, php-format
 msgid "Messages <span class=\"%1$s\">%2$s</span>"
 msgstr ""
 
@@ -11345,6 +11658,7 @@ msgstr ""
 
 #. translators: 1: notification from number. 2: notification to number. 3: total notifications.
 #: bp-notifications/bp-notifications-template.php:963
+#, php-format
 msgid "Viewing %1$s - %2$s of %3$s notification"
 msgid_plural "Viewing %1$s - %2$s of %3$s notifications"
 msgstr[0] ""
@@ -11385,18 +11699,21 @@ msgstr ""
 
 #. translators: %s: Unread notification count for the current user
 #: bp-notifications/classes/class-bp-notifications-component.php:207
+#, php-format
 msgctxt "Profile screen nav"
 msgid "Notifications %s"
 msgstr ""
 
 #. translators: %s: Unread notification count for the current user
 #: bp-notifications/classes/class-bp-notifications-component.php:241
+#, php-format
 msgctxt "My Account Notification pending"
 msgid "Notifications %s"
 msgstr ""
 
 #. translators: %s: Unread notification count for the current user
 #: bp-notifications/classes/class-bp-notifications-component.php:246
+#, php-format
 msgctxt "My Account Notification pending"
 msgid "Unread %s"
 msgstr ""
@@ -11547,6 +11864,7 @@ msgstr ""
 
 #. translators: %s: user username
 #: bp-settings/actions/delete-account.php:54
+#, php-format
 msgid "%s was successfully deleted."
 msgstr ""
 
@@ -11676,11 +11994,13 @@ msgstr ""
 
 #. translators: %s: new email address
 #: bp-settings/bp-settings-template.php:102
+#, php-format
 msgid "There is a pending change of your email address to %s."
 msgstr ""
 
 #. translators: 1: email address. 2: cancel email change url.
 #: bp-settings/bp-settings-template.php:110
+#, php-format
 msgid "Check your email (%1$s) for the verification link, or %2$s."
 msgstr ""
 
@@ -11759,6 +12079,7 @@ msgstr ""
 
 #. translators: %s: number of activity comments
 #: bp-templates/bp-legacy/buddypress-functions.php:318
+#, php-format
 msgid "Show all comments (%d)"
 msgstr ""
 
@@ -11791,6 +12112,7 @@ msgstr ""
 
 #. translators: %s: user link
 #: bp-templates/bp-legacy/buddypress-functions.php:1473
+#, php-format
 msgid "%s has previously requested to join this group. Sending an invitation will automatically add the member to the group."
 msgstr ""
 
@@ -11853,6 +12175,7 @@ msgstr ""
 
 #. translators: 1: user profile link, 2: user name, 3: activity permalink, 4: ISO8601 timestamp, 5: activity relative timestamp
 #: bp-templates/bp-legacy/buddypress/activity/comment.php:31
+#, php-format
 msgid "%1$s replied %2$s"
 msgstr ""
 
@@ -11864,6 +12187,7 @@ msgstr ""
 
 #. translators: %s: number of activity comments
 #: bp-templates/bp-legacy/buddypress/activity/entry.php:72
+#, php-format
 msgid "Comment %s"
 msgstr ""
 
@@ -11883,23 +12207,27 @@ msgstr ""
 #. translators: %s: number of members
 #: bp-templates/bp-legacy/buddypress/activity/index.php:66
 #: bp-templates/bp-legacy/buddypress/members/index.php:62
+#, php-format
 msgid "All Members %s"
 msgstr ""
 
 #. translators: %s: number of friends
 #: bp-templates/bp-legacy/buddypress/activity/index.php:91
 #: bp-templates/bp-legacy/buddypress/members/index.php:65
+#, php-format
 msgid "My Friends %s"
 msgstr ""
 
 #. translators: %s: current user groups count
 #: bp-templates/bp-legacy/buddypress/activity/index.php:118
 #: bp-templates/bp-legacy/buddypress/groups/index.php:76
+#, php-format
 msgid "My Groups %s"
 msgstr ""
 
 #. translators: %s: number of favorites
 #: bp-templates/bp-legacy/buddypress/activity/index.php:143
+#, php-format
 msgid "My Favorites %s"
 msgstr ""
 
@@ -11910,6 +12238,7 @@ msgstr ""
 
 #. translators: %s: new mentions count
 #: bp-templates/bp-legacy/buddypress/activity/index.php:175
+#, php-format
 msgctxt "Number of new activity mentions"
 msgid "%s new"
 msgid_plural "%s new"
@@ -11949,12 +12278,14 @@ msgstr ""
 
 #. translators: 1: group name. 2: member name.
 #: bp-templates/bp-legacy/buddypress/activity/post-form.php:34
+#, php-format
 msgid "What's new in %1$s, %2$s?"
 msgstr ""
 
 #. translators: %s: member name
 #: bp-templates/bp-legacy/buddypress/activity/post-form.php:41
 #: bp-templates/bp-nouveau/includes/activity/functions.php:166
+#, php-format
 msgid "What's new, %s?"
 msgstr ""
 
@@ -12117,12 +12448,14 @@ msgstr ""
 #. translators: %s: the link of the new site
 #: bp-templates/bp-legacy/buddypress/blogs/confirm.php:36
 #: bp-templates/bp-nouveau/buddypress/blogs/confirm.php:21
+#, php-format
 msgid "%s is your new site."
 msgstr ""
 
 #. translators: 1: Login link, 2: User name
 #: bp-templates/bp-legacy/buddypress/blogs/confirm.php:41
 #: bp-templates/bp-nouveau/buddypress/blogs/confirm.php:26
+#, php-format
 msgid "%1$s as \"%2$s\" using your existing password."
 msgstr ""
 
@@ -12142,11 +12475,13 @@ msgstr ""
 
 #. translators: %s: all blogs count
 #: bp-templates/bp-legacy/buddypress/blogs/index.php:67
+#, php-format
 msgid "All Sites %s"
 msgstr ""
 
 #. translators: %s: current user blogs count
 #: bp-templates/bp-legacy/buddypress/blogs/index.php:77
+#, php-format
 msgid "My Sites %s"
 msgstr ""
 
@@ -12272,6 +12607,7 @@ msgstr ""
 #. translators: Group type description shown when creating a group.
 #: bp-templates/bp-legacy/buddypress/groups/create.php:167
 #: bp-templates/bp-legacy/buddypress/groups/single/admin/group-settings.php:71
+#, php-format
 msgid "&ndash; %s"
 msgstr ""
 
@@ -12399,6 +12735,7 @@ msgstr ""
 
 #. translators: %s: all groups count
 #: bp-templates/bp-legacy/buddypress/groups/index.php:66
+#, php-format
 msgid "All Groups %s"
 msgstr ""
 
@@ -12526,6 +12863,7 @@ msgstr ""
 #. translators: %s: group name
 #: bp-templates/bp-legacy/buddypress/groups/single/request-membership.php:25
 #: bp-templates/bp-nouveau/buddypress/groups/single/request-membership.php:17
+#, php-format
 msgid "You are requesting to become a member of the group \"%s\"."
 msgstr ""
 
@@ -12585,6 +12923,7 @@ msgstr ""
 
 #. translators: %s: login url
 #: bp-templates/bp-legacy/buddypress/members/activate.php:51
+#, php-format
 msgid "Your account was activated successfully! You can now %s with the username and password you provided when you signed up."
 msgstr ""
 
@@ -12667,6 +13006,7 @@ msgstr ""
 #: bp-templates/bp-legacy/buddypress/members/single/profile/edit.php:65
 #: bp-templates/bp-legacy/buddypress/members/single/profile/edit.php:86
 #: bp-xprofile/classes/class-bp-xprofile-user-admin.php:328
+#, php-format
 msgid "This field can be seen by: %s"
 msgstr ""
 
@@ -12764,6 +13104,7 @@ msgstr ""
 
 #. translators: %s: group members count
 #: bp-templates/bp-legacy/buddypress/members/single/groups/invites.php:45
+#, php-format
 msgctxt "Group member count"
 msgid "%d member"
 msgid_plural "%d members"
@@ -12919,11 +13260,13 @@ msgstr ""
 
 #. translators: %s: message recipients count
 #: bp-templates/bp-legacy/buddypress/members/single/messages/single.php:37
+#, php-format
 msgid "Conversation between %s recipients."
 msgstr ""
 
 #. translators: %s: message recipients list
 #: bp-templates/bp-legacy/buddypress/members/single/messages/single.php:45
+#, php-format
 msgid "Conversation between %s."
 msgstr ""
 
@@ -12995,6 +13338,7 @@ msgstr ""
 #. Translators: %s is used to output the link to the Gravatar site
 #: bp-templates/bp-legacy/buddypress/members/single/profile/change-avatar.php:29
 #: bp-templates/bp-nouveau/buddypress/members/single/profile/change-avatar.php:21
+#, php-format
 msgid "Your profile photo will be used on your profile and throughout the site. If there is a %s associated with your account email we will use that, or you can upload an image from your computer."
 msgstr ""
 
@@ -13010,6 +13354,7 @@ msgstr ""
 
 #. Translators: %s is used to output the link to the Gravatar site
 #: bp-templates/bp-legacy/buddypress/members/single/profile/change-avatar.php:99
+#, php-format
 msgid "Your profile photo will be used on your profile and throughout the site. To change your profile photo, please create an account with %s using the same email address as you used to register with this site."
 msgstr ""
 
@@ -13026,6 +13371,7 @@ msgstr ""
 
 #. translators: %s: profile group name
 #: bp-templates/bp-legacy/buddypress/members/single/profile/edit.php:30
+#, php-format
 msgid "Editing '%s' Profile Group"
 msgstr ""
 
@@ -13036,6 +13382,7 @@ msgstr ""
 #. Translators: a member's profile, e.g. "Paul's profile".
 #: bp-templates/bp-legacy/buddypress/members/single/profile/profile-wp.php:29
 #: bp-templates/bp-nouveau/buddypress/members/single/profile/profile-wp.php:20
+#, php-format
 msgid "%s's Profile"
 msgstr ""
 
@@ -13056,6 +13403,7 @@ msgstr ""
 #. translators: %s: expiration date
 #: bp-templates/bp-legacy/buddypress/members/single/settings/data.php:27
 #: bp-templates/bp-nouveau/buddypress/members/single/settings/data.php:24
+#, php-format
 msgid "You may download your personal data by clicking on the link below. For privacy and security, we will automatically delete the file on %s, so please download it before then."
 msgstr ""
 
@@ -13082,6 +13430,7 @@ msgstr ""
 #. translators: %s: confirmation date
 #: bp-templates/bp-legacy/buddypress/members/single/settings/data.php:50
 #: bp-templates/bp-nouveau/buddypress/members/single/settings/data.php:42
+#, php-format
 msgid "You previously requested an export of your personal data on %s."
 msgstr ""
 
@@ -13123,6 +13472,7 @@ msgstr ""
 #. translators: %s the link to Delete Account Settings page
 #: bp-templates/bp-legacy/buddypress/members/single/settings/data.php:84
 #: bp-templates/bp-nouveau/buddypress/members/single/settings/data.php:77
+#, php-format
 msgid "You may delete your account by visiting the %s page."
 msgstr ""
 
@@ -13148,6 +13498,7 @@ msgstr ""
 #. translators: %s: the required text information.
 #: bp-templates/bp-legacy/buddypress/members/single/settings/general.php:27
 #: bp-templates/bp-nouveau/buddypress/members/single/settings/general.php:26
+#, php-format
 msgid "Current Password %s"
 msgstr ""
 
@@ -13164,6 +13515,7 @@ msgstr ""
 
 #. translators: %s: Information about how to keep password unchanged.
 #: bp-templates/bp-legacy/buddypress/members/single/settings/general.php:40
+#, php-format
 msgid "Change Password %s"
 msgstr ""
 
@@ -13198,6 +13550,7 @@ msgstr ""
 
 #. translators: %s: number of activity comments
 #: bp-templates/bp-nouveau/buddypress-functions.php:501
+#, php-format
 msgid "Show all %d comments"
 msgstr ""
 
@@ -13589,6 +13942,7 @@ msgstr ""
 
 #. translators: 1: link to the customizer option. 2: link to the customizer widgets section.
 #: bp-templates/bp-nouveau/buddypress/groups/single/default-front.php:20
+#, php-format
 msgid "You can set your preferences for the %1$s or add %2$s to it."
 msgstr ""
 
@@ -13652,6 +14006,7 @@ msgstr ""
 
 #. translators: 1: link to the customizer option. 2: link to the customizer widgets section.
 #: bp-templates/bp-nouveau/buddypress/members/single/default-front.php:20
+#, php-format
 msgid "You can set the preferences of the %1$s or add %2$s to it."
 msgstr ""
 
@@ -13683,6 +14038,7 @@ msgstr ""
 #. translators: field visibility level, e.g. "...seen by: everyone".
 #: bp-templates/bp-nouveau/buddypress/members/single/parts/profile-visibility.php:21
 #: bp-templates/bp-nouveau/buddypress/members/single/parts/profile-visibility.php:44
+#, php-format
 msgid "This field may be seen by: %s"
 msgstr ""
 
@@ -13707,11 +14063,13 @@ msgstr ""
 
 #. Translators: %s is used to output the link to the Gravatar site
 #: bp-templates/bp-nouveau/buddypress/members/single/profile/change-avatar.php:87
+#, php-format
 msgid "Your profile photo will be used on your profile and throughout the site. To change your profile photo, create an account with %s using the same email address as you used to register with this site."
 msgstr ""
 
 #. translators: %s = profile field group name
 #: bp-templates/bp-nouveau/buddypress/members/single/profile/edit.php:34
+#, php-format
 msgid "Editing \"%s\" Profile Group"
 msgstr ""
 
@@ -13892,6 +14250,7 @@ msgstr ""
 
 #. translators: 1: user profile link, 2: user name, 3: activity permalink, 4: activity recorded date, 5: activity timestamp, 6: activity human time since
 #: bp-templates/bp-nouveau/includes/activity/template-tags.php:729
+#, php-format
 msgid "<a href=\"%1$s\">%2$s</a> replied <a href=\"%3$s\" class=\"activity-time-since\"><time class=\"time-since\" datetime=\"%4$s\" data-bp-timestamp=\"%5$d\">%6$s</time></a>"
 msgstr ""
 
@@ -14152,6 +14511,7 @@ msgstr ""
 
 #. translators: %s: member name
 #: bp-templates/bp-nouveau/includes/functions.php:1084
+#, php-format
 msgid "%s did not save any profile information yet."
 msgstr ""
 
@@ -14307,6 +14667,7 @@ msgstr ""
 
 #. translators: count of users affected
 #: bp-templates/bp-nouveau/includes/groups/ajax.php:445
+#, php-format
 msgid "Invitation failed for %s user."
 msgid_plural "Invitation failed for %s users."
 msgstr[0] ""
@@ -14366,6 +14727,7 @@ msgstr ""
 
 #. translators: %s is the name of the function to use instead of the deprecated one
 #: bp-templates/bp-nouveau/includes/groups/classes.php:433
+#, php-format
 msgid "Please use %s instead"
 msgstr ""
 
@@ -14387,6 +14749,7 @@ msgstr ""
 
 #. translators: %s: member name
 #: bp-templates/bp-nouveau/includes/groups/functions.php:180
+#, php-format
 msgid "Cancel invitation %s"
 msgstr ""
 
@@ -14666,6 +15029,7 @@ msgstr ""
 
 #. translators: %s: number of message recipients
 #: bp-templates/bp-nouveau/includes/messages/functions.php:158
+#, php-format
 msgid "(and %d others)"
 msgstr ""
 
@@ -14715,6 +15079,7 @@ msgstr ""
 
 #. translators: Do not translate placeholders. 2 = form field name, 3 = "(required)".
 #: bp-templates/bp-nouveau/includes/template-tags.php:2470
+#, php-format
 msgid "<label for=\"%1$s\">%2$s %3$s</label>"
 msgstr ""
 
@@ -14724,6 +15089,7 @@ msgstr ""
 
 #. translators: link to Privacy Policy
 #: bp-templates/bp-nouveau/includes/template-tags.php:2637
+#, php-format
 msgid "I have read and agree to this site's %s."
 msgstr ""
 
@@ -14753,6 +15119,7 @@ msgstr ""
 
 #. translators: %s: user profile link
 #: bp-xprofile/bp-xprofile-activity.php:64
+#, php-format
 msgid "%s's profile was updated"
 msgstr ""
 
@@ -14803,6 +15170,7 @@ msgstr ""
 
 #. translators: accessibility text
 #: bp-xprofile/bp-xprofile-admin.php:276
+#, php-format
 msgid "Fields for \"%s\" Group"
 msgstr ""
 
@@ -14838,6 +15206,7 @@ msgstr ""
 
 #. translators: %s is the link to the registration settings.
 #: bp-xprofile/bp-xprofile-admin.php:400
+#, php-format
 msgid "* Fields in this group will appear on the registration page as soon as users will be able to register to your site.%s"
 msgstr ""
 
@@ -14885,21 +15254,25 @@ msgstr ""
 
 #. translators: %s: the field type
 #: bp-xprofile/bp-xprofile-admin.php:768
+#, php-format
 msgid "There was an error deleting the %s. Please try again."
 msgstr ""
 
 #. translators: %s: the field type
 #: bp-xprofile/bp-xprofile-admin.php:772
+#, php-format
 msgid "The %s was deleted successfully!"
 msgstr ""
 
 #. translators: %s is the field type name.
 #: bp-xprofile/bp-xprofile-admin.php:808
+#, php-format
 msgid "Delete %s"
 msgstr ""
 
 #. translators: 1 is the field type name. 2 is the field name
 #: bp-xprofile/bp-xprofile-admin.php:820
+#, php-format
 msgid "You are about to delete the following %1$s: %2$s."
 msgstr ""
 
@@ -14980,6 +15353,7 @@ msgstr ""
 
 #. translators: %s: last activity timestamp (e.g. "active 1 hour ago")
 #: bp-xprofile/bp-xprofile-template.php:1262
+#, php-format
 msgid "Profile updated %s"
 msgstr ""
 
@@ -15355,6 +15729,7 @@ msgstr ""
 
 #. translators: %s: member name
 #: bp-xprofile/classes/class-bp-xprofile-component.php:349
+#, php-format
 msgctxt "Avatar alt"
 msgid "Profile picture of %s"
 msgstr ""
@@ -15383,6 +15758,7 @@ msgstr ""
 #. translators: %s: link to the page the user needs to accept the terms of.
 #: bp-xprofile/classes/class-bp-xprofile-field-type-checkbox-acceptance.php:159
 #: bp-xprofile/classes/class-bp-xprofile-field-type-checkbox-acceptance.php:296
+#, php-format
 msgid "I agree to %s."
 msgstr ""
 
@@ -15396,11 +15772,13 @@ msgstr ""
 
 #. translators: %s: link to the page the user needs to accept the terms of.
 #: bp-xprofile/classes/class-bp-xprofile-field-type-checkbox-acceptance.php:373
+#, php-format
 msgid "I did not agree to %s"
 msgstr ""
 
 #. translators: %s: link to the page the user needs to accept the terms of.
 #: bp-xprofile/classes/class-bp-xprofile-field-type-checkbox-acceptance.php:383
+#, php-format
 msgid "I agreed to %s."
 msgstr ""
 
@@ -15714,6 +16092,7 @@ msgstr ""
 
 #. translators: %s: comma separated list of member types
 #: bp-xprofile/classes/class-bp-xprofile-field.php:838
+#, php-format
 msgid "(Member types: %s)"
 msgstr ""
 
@@ -15735,6 +16114,7 @@ msgstr ""
 
 #. translators: %s: field type name
 #: bp-xprofile/classes/class-bp-xprofile-field.php:1195
+#, php-format
 msgid "The profile field type %s is not registered."
 msgstr ""
 
@@ -15745,6 +16125,7 @@ msgstr ""
 #. translators: %s: field type name
 #: bp-xprofile/classes/class-bp-xprofile-field.php:1222
 #: bp-xprofile/classes/class-bp-xprofile-field.php:1229
+#, php-format
 msgid "%s require at least one option."
 msgstr ""
 
@@ -15971,12 +16352,14 @@ msgstr ""
 #. translators: %s: total friend count (more than 1).
 #: bp-friends/blocks/dynamic-widget/index.js:4
 #: bp-members/blocks/dynamic-widget/index.js:3
+#, js-format
 msgid "%s friends"
 msgstr ""
 
 #. translators: %s is time elapsed since the registration date happened
 #: bp-friends/blocks/dynamic-widget/index.js:6
 #: bp-members/blocks/dynamic-widget/index.js:5
+#, js-format
 msgid "Registered %s"
 msgstr ""
 
@@ -16002,6 +16385,7 @@ msgstr ""
 
 #. translators: %s is the number of Group members (more than 1).
 #: bp-groups/blocks/dynamic-widget/index.js:4
+#, js-format
 msgid "%s members"
 msgstr ""
 
@@ -16132,6 +16516,7 @@ msgstr ""
 
 #. translators: 1: number of group memberss.
 #: bp-groups/blocks/groups/index.js:3
+#, js-format
 msgid "%1$d member"
 msgid_plural "%1$d members"
 msgstr[0] ""
